@@ -75,7 +75,7 @@
   .status.ok{color:var(--ok);} .status.err{color:var(--err);} .status.busy{color:var(--accent2);}
   .settings{display:none; position:fixed; inset:0; background:rgba(0,0,0,.6); z-index:50; align-items:center; justify-content:center;}
   .settings.open{display:flex;}
-  .settings .inner{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:24px; width:min(480px,92vw);}
+  .settings .inner{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:24px; width:min(480px,92vw); max-height:88vh; overflow-y:auto; -webkit-overflow-scrolling:touch;}
   .notice{background:#1d2230; border:1px solid #2c3450; border-radius:8px; padding:10px 12px; font-size:12.5px; color:#aab4d0; margin-top:14px;}
   .notice b{color:#ffd400;}
   .footer-note{color:var(--muted); font-size:12px; margin-top:26px; border-top:1px solid var(--line); padding-top:14px;}
@@ -1499,8 +1499,4 @@ function escapeHtml(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").repl
   if(last === today && cached){
     try{ renderDiscovery(JSON.parse(cached)); setCrawlStatus("오늘 크롤링 결과 (캐시). [지금 크롤링]으로 갱신 가능.", "ok"); return; }catch(e){}
   }
-  setTimeout(()=>crawlDaily(false), 800);
-})();
-</script>
-</body>
-</html>
+  setT
