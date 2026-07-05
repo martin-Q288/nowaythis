@@ -327,6 +327,16 @@ function saveSettings(){
     const v = localStorage.getItem("icf_"+id);
     if(v) document.getElementById(id).value = v;
   });
+  // 자동 저장: 입력하는 즉시 저장 (저장 버튼이 안 눌리는 환경 대비)
+  const KEYMAP = {apiKey:"icf_key", model:"icf_model"};
+  ["apiKey","model","igApiMode","igUserId","igToken","imgHost","imgbbKey","cldName","cldPreset","pexelsKey","imgSource"].forEach(id=>{
+    const el = document.getElementById(id);
+    if(!el) return;
+    const ev = el.tagName === "SELECT" ? "change" : "input";
+    el.addEventListener(ev, ()=>{
+      localStorage.setItem(KEYMAP[id] || ("icf_"+id), el.value.trim());
+    });
+  });
 })();
 
 /* ---------- toast ---------- */
@@ -1487,16 +1497,4 @@ function renderDiscovery(items){
     row.appendChild(btn);
     table.appendChild(row);
   });
-  box.appendChild(table);
-}
-function escapeHtml(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
-
-/* auto-crawl once per day on open */
-(function autoCrawl(){
-  const last = localStorage.getItem("icf_lastCrawl");
-  const today = new Date().toDateString();
-  const cached = localStorage.getItem("icf_lastResults");
-  if(last === today && cached){
-    try{ renderDiscovery(JSON.parse(cached)); setCrawlStatus("오늘 크롤링 결과 (캐시). [지금 크롤링]으로 갱신 가능.", "ok"); return; }catch(e){}
-  }
-  setT
+  box.appendChild(tabl
