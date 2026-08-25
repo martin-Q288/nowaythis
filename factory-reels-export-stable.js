@@ -1,0 +1,15 @@
+(()=>{
+function lang(){return window.getFactoryLanguage?.()||localStorage.getItem('nwf-active-language-v1')||'kr'}
+function meta(l){return ({kr:'KR',jp:'JP',en:'EN'})[l]||'KR'}
+function state(){const a=typeof current==='function'?current():null,l=lang(),r=a?.reels?.[l]||null;return{a,l,r}}
+function selectedMedia(){const {a,r}=state();return a?.images?.find(i=>i.id===r?.image)||null}
+function isVideo(im){return !!im&&(im.type==='video-upload'||String(im.mime||'').startsWith('video/'))}
+function changed(){return !!window.NWReelsEditor?.hasEdits?.()}
+function safe(s='reel'){return String(s).replace(/[^a-z0-9가-힣_-]+/gi,'_').replace(/^_+|_+$/g,'').slice(0,60)||'reel'}
+async function saveOriginal(){const {a,l}=state(),im=selectedMedia();if(!isVideo(im)||!im.mediaKey)return toast?.('업로드한 영상을 먼저 선택해주세요');try{const blob=await window.NWVideoStore?.getVideo(im.mediaKey);if(!blob)return toast?.('브라우저 저장소에서 원본 영상을 찾지 못했습니다');const n=String(im.name||'').toLowerCase(),m=String(blob.type||im.mime||'').toLowerCase(),ext=n.endsWith('.mov')||m.includes('quicktime')?'mov':n.endsWith('.webm')||m.includes('webm')?'webm':'mp4',url=URL.createObjectURL(blob),aEl=document.createElement('a');aEl.href=url;aEl.download=`noway_${safe(a?.id||'content')}_reels_${l}.${ext}`;document.body.appendChild(aEl);aEl.click();aEl.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);toast?.(`${meta(l)} REELS VIDEO 저장 완료`)}catch(err){console.error(err);toast?.('영상 저장에 실패했습니다')}}
+window.downloadReelVideo=async()=>{const im=selectedMedia();if(!isVideo(im))return toast?.('영상 파일을 먼저 선택해주세요');if(changed()&&typeof window.exportCutMp4==='function')return window.exportCutMp4();return saveOriginal()};
+function enhance(){if(window.getContentFormat?.()!=='reels')return;const {l}=state(),im=selectedMedia();document.querySelectorAll('.download-row').forEach(row=>{const cover=[...row.querySelectorAll('button')].find(b=>/REELS COVER|COVER PNG/i.test(b.textContent||''));if(cover){cover.textContent=`${meta(l)} COVER PNG 저장`;cover.title='Instagram 릴스 표지용 PNG'}let video=row.querySelector('.reels-video-save');if(isVideo(im)){if(!video){video=document.createElement('button');video.className='primary reels-video-save';video.type='button';video.addEventListener('click',()=>window.downloadReelVideo());row.appendChild(video)}video.textContent=changed()?`${meta(l)} 편집본 MP4 저장`:`${meta(l)} REELS VIDEO 저장`;video.title=changed()?'현재 타임라인 편집본을 MP4로 저장':'원본 영상을 그대로 저장'}else video?.remove()});document.querySelectorAll('.source-hint').forEach(el=>{el.textContent='영상 업로드 → CUT EDITOR에서 중간 분할/삭제 → 편집본 미리보기 → MP4 저장 순서로 작업하세요. COVER PNG는 릴스 표지입니다.'})}
+const prev=renderStudio;renderStudio=function(){prev();setTimeout(enhance,180)};
+window.addEventListener('load',()=>setTimeout(enhance,450));
+window.NWReelsExport={refresh:enhance};
+})();
