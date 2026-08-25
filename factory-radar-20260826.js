@@ -1,0 +1,12 @@
+(()=>{
+const FRESH=[{
+id:'sydney-sweeney-plane-0826',title:'비행기 위에 올라탄 시드니 스위니',score:28,cat:'해외연예',status:'READY',source:'https://people.com/sydney-sweeney-says-watch-out-tom-cruise-after-standing-on-biplane-12066431',
+hooksKr:['비행기 위에\n진짜 올라탔다','톰 크루즈에게\n도전장을 던졌다','뒤집히는 비행기\n위에 서 있었다'],hooksJp:['飛行機の上に\n本当に立った','トム・クルーズに\n挑戦状','宙返りする飛行機の\n上に立っていた'],hooksEn:['SHE STOOD\nON THE PLANE','WATCH OUT\nTOM CRUISE','UPSIDE DOWN\nON A PLANE'],hook:0,headlineKr:'비행기 위에\n진짜 올라탔다',headlineJp:'飛行機の上に\n本当に立った',headlineEn:'SHE STOOD\nON THE PLANE',
+captionKr:`영화 촬영 장면처럼 보이지만 실제입니다.\n\n‘유포리아’로 잘 알려진 배우 시드니 스위니가 비행 중인 복엽기 위에 직접 올라탄 영상을 공개했습니다.\n\n영상에서 스위니는 안전 장비와 고글을 착용한 채 기체 위에 고정돼 있었고, 비행기는 공중에서 여러 차례 회전했습니다. 순간적으로 몸이 완전히 거꾸로 뒤집히는 장면까지 그대로 담겼습니다.\n\n그리고 영상에 붙인 한마디가 더 화제가 됐습니다.\n\n“Watch out Tom Cruise.”\n\n직접 고난도 액션을 소화하는 것으로 유명한 톰 크루즈를 언급한 겁니다. 실제로 ‘미션 임파서블: 파이널 레코닝’에서도 톰 크루즈가 비행 중인 복엽기 외부에서 직접 스턴트를 수행한 바 있습니다.\n\n이번 체험을 진행한 영국 The Wing Walk Company도 스위니의 게시물에 직접 댓글을 남겨 그녀가 실제 체험에 참여했음을 확인했습니다.\n\n여러분이라면 안전장비가 있어도 이 비행기 위에 올라갈 수 있나요?\n\n#NOWAYTHIS #시드니스위니 #톰크루즈 #해외연예 #해외토픽`,
+captionJp:`映画の撮影シーンのように見えますが、本物です。\n\n「ユーフォリア」で知られる俳優シドニー・スウィーニーが、飛行中の複葉機の上に立つ映像を公開しました。安全装備とゴーグルを着用し機体に固定された状態で、飛行機は空中で旋回。身体が逆さまになる瞬間まで映っています。\n\n投稿には「Watch out Tom Cruise」と一言。自ら危険なスタントをこなすことで有名なトム・クルーズを意識したコメントでした。\n\nあなたなら安全装備があっても挑戦できますか？\n\n#NOWAYTHIS #SydneySweeney #TomCruise #海外エンタメ`,
+captionEn:`It looks like a movie stunt, but it was real. Euphoria star Sydney Sweeney shared footage of herself strapped to the top of a biplane while it was flying and rolling through the air. Her caption: “Watch out Tom Cruise.” The stunt echoed Cruise’s famous wing-walking sequence in Mission: Impossible – The Final Reckoning. The UK-based Wing Walk Company also commented that it had hosted her for the experience. Would you try this even with safety gear?\n\n#NOWAYTHIS #SydneySweeney #TomCruise #CelebrityNews`,
+music:['Danger Zone','Mission: Impossible Theme','original audio'],fact:['People 2026-08-24 보도와 본인 Instagram 영상 기준','안전 장비를 착용하고 전문 업체 체험으로 진행','톰 크루즈 언급은 스위니가 직접 쓴 캡션','비행기 속도·고도는 이번 체험 수치로 확인되지 않아 사용 금지'],done:[],images:[],koreaAwareness:4
+}];
+if(typeof data==='undefined'||typeof normalize!=='function')return;
+const existing=new Set(data.map(x=>x.id));const add=FRESH.filter(x=>!existing.has(x.id)).map(x=>normalize([x])[0]);if(add.length){data.unshift(...add);persist();render();}
+})();
