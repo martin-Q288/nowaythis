@@ -1,0 +1,5 @@
+(()=>{
+const KEYS={kr:'krSelected',jp:'jpSelected',en:'enSelected'};
+async function saveCarouselAll(l){const q=typeof current==='function'?current():null,ids=q&&Array.isArray(q[KEYS[l]])?q[KEYS[l]]:[];if(!ids.length){if(typeof toast==='function')toast(`${String(l||'kr').toUpperCase()} 이미지를 먼저 선택하세요`);return}if(typeof toast==='function')toast(`${ids.length}장 생성 중...`);for(let i=0;i<ids.length;i++){await window.carouselAllDownload?.(l,ids[i],i+1);await new Promise(r=>setTimeout(r,260))}if(typeof toast==='function')toast(`${String(l||'kr').toUpperCase()} ${ids.length}장 저장 완료`)}
+try{downloadSelected=async l=>{if(window.getContentFormat?.()==='carousel')return saveCarouselAll(l);if(typeof window.downloadReelCover==='function')return window.downloadReelCover(l)}}catch(e){console.warn('carousel save routing',e)}
+})();
