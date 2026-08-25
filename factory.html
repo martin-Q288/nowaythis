@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="factory-posted.css?v=20260825-2217">
 <link rel="stylesheet" href="factory-trash.css?v=20260825-2255">
 <link rel="stylesheet" href="factory-lang3.css?v=20260825-2317">
+<link rel="stylesheet" href="factory-discovery.css?v=20260825-2345">
 </head>
 <body>
 <div class="shell">
@@ -20,7 +21,13 @@
   </header>
   <div class="layout">
     <aside class="panel glass radar">
-      <div class="panel-head"><span>RADAR</span><div class="segments"><button class="active" data-filter="ALL">ALL</button><button data-filter="READY">READY</button><button data-filter="POSTED">POSTED</button></div></div>
+      <div class="panel-head">
+        <span>RADAR</span>
+        <div class="radar-head-actions">
+          <button class="discover-btn" id="discoverBtn" onclick="discoverReadyTen()">발굴 +10</button>
+          <div class="segments"><button data-filter="ALL">ALL</button><button class="active" data-filter="READY">READY</button><button data-filter="POSTED">POSTED</button></div>
+        </div>
+      </div>
       <div class="radar-list" id="radarList"></div>
     </aside>
     <main class="panel glass studio-panel">
@@ -58,5 +65,6 @@
 <script src="factory-auto.js?v=20260825-2255"></script>
 <script src="factory-trash.js?v=20260825-2255"></script>
 <script src="factory-lang3.js?v=20260825-2317"></script>
+<script src="factory-discovery.js?v=20260825-2345"></script>
 </body>
 </html>
