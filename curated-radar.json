@@ -24,10 +24,7 @@
     "photoSource": "https://au.variety.com/2026/music/news/taylor-swift-sings-mashup-all-too-well-grammy-museum-video-39683/",
     "layoutKr": "실제 공연 사진 한 장을 4:5로 사용. 테일러와 꽃 장식 피아노가 함께 보이게 크롭하고, 하단 30%에만 약한 검정 그라데이션. 흰색 굵은 글씨 두 줄로 ‘결혼 후 / 첫 무대’. 설명·출처·CTA는 이미지에 넣지 않음.",
     "ctaKr": "결혼 후 첫 무대에서 다시 듣고 싶었던 테일러의 곡은?",
-    "factSources": [
-      "https://people.com/taylor-swift-sings-eras-tour-style-mashup-grammy-museum-icon-sessions-event-first-post-wedding-performance-12067095",
-      "https://au.variety.com/2026/music/news/taylor-swift-sings-mashup-all-too-well-grammy-museum-video-39683/"
-    ]
+    "factSources": ["https://people.com/taylor-swift-sings-eras-tour-style-mashup-grammy-museum-icon-sessions-event-first-post-wedding-performance-12067095","https://au.variety.com/2026/music/news/taylor-swift-sings-mashup-all-too-well-grammy-museum-video-39683/"]
   },
   {
     "id": "sydney-sweeney-biplane-tom-cruise-20260825",
@@ -54,10 +51,31 @@
     "photoSource": "https://people.com/sydney-sweeney-says-watch-out-tom-cruise-after-standing-on-biplane-12066431",
     "layoutKr": "실제 스턴트 사진 한 장을 4:5로 사용. 노란 복엽기와 기체 위 시드니 스위니가 동시에 크게 보이게 크롭. 상단 또는 하단 빈 공간에 흰색 굵은 글씨 두 줄로 ‘톰 크루즈 / 조심해’. 설명·출처·부제·CTA는 이미지에 넣지 않음.",
     "ctaKr": "비행 중인 비행기 위에 직접 올라갈 수 있다면 해볼 수 있나요?",
-    "factSources": [
-      "https://people.com/sydney-sweeney-says-watch-out-tom-cruise-after-standing-on-biplane-12066431",
-      "https://ew.com/sydney-sweeney-tells-tom-cruise-watch-out-wing-walking-biplane-mission-impossible-12066733",
-      "https://pagesix.com/2026/08/25/celebrity-news/sydney-sweeney-tells-tom-cruise-to-watch-out-after-epic-plane-stunt/"
-    ]
+    "factSources": ["https://people.com/sydney-sweeney-says-watch-out-tom-cruise-after-standing-on-biplane-12066431","https://ew.com/sydney-sweeney-tells-tom-cruise-watch-out-wing-walking-biplane-mission-impossible-12066733","https://pagesix.com/2026/08/25/celebrity-news/sydney-sweeney-tells-tom-cruise-to-watch-out-after-epic-plane-stunt/"]
+  },
+  {
+    "id": "erebus-cat-29-toes-world-record-20260825",
+    "title": "발가락이 29개인 고양이, 기네스 세계기록 경신",
+    "titleKr": "발가락이 29개인 고양이, 기네스 세계기록 경신",
+    "source": "https://www.theguardian.com/world/2026/aug/25/wisconsin-kitten-29-toes-world-record",
+    "publisher": "The Guardian",
+    "publishedAt": "Tue, 25 Aug 2026 00:00:00 GMT",
+    "cat": "해외토픽",
+    "score": 29,
+    "visualScore": 5,
+    "koreaAwareness": 5,
+    "scoreBreakdown": {"화제성":5,"호기심":5,"공유성":5,"감정반응":4,"시각성":5,"계정적합성":5},
+    "hookKr": "발가락이\n29개다",
+    "hookKr2": "고양이 발가락을\n세어봤더니 29개",
+    "captionKr": "고양이 한 마리가 발가락 개수로 세계기록을 세웠습니다.\n\n미국 위스콘신에 사는 메인쿤 고양이 ‘에레버스(Erebus)’의 발가락은 모두 29개입니다. 일반적인 집고양이는 보통 18개의 발가락을 갖는데, 에레버스는 그보다 11개가 더 많습니다.\n\n기네스 월드 레코드에 따르면 에레버스의 발가락은 2026년 5월 13일 공식 측정됐고, 2002년부터 유지되던 기존 기록 28개를 넘어 ‘발가락이 가장 많은 고양이’ 기록을 세웠습니다.\n\n이유는 다지증(polydactyly)이라는 유전적 특성입니다. 특히 메인쿤에게 비교적 자주 나타날 수 있지만, 29개까지 확인된 사례는 공식 기록상 에레버스가 처음입니다.\n\n현재 이 이야기는 ABC News, UPI에 이어 8월 25일 The Guardian까지 보도하면서 다시 확산되고 있고, UPI 메인 페이지에서도 Odd News 인기 기사 상단에 올라왔습니다.\n\n사진을 처음 보면 단순히 발이 큰 고양이처럼 보이지만, 자세히 보면 발가락이 겹겹이 붙어 있습니다.\n\n여러분은 사진만 보고 29개라는 걸 알아챌 수 있었나요?\n\n#NOWAYTHIS #고양이 #기네스세계기록 #해외토픽 #메인쿤",
+    "captionJp": "アメリカ・ウィスコンシン州のメインクーン『Erebus』が、29本の指を持つ猫としてギネス世界記録を更新しました。一般的な猫より11本多く、2002年から続いていた28本の記録を上回りました。原因は多指症という遺伝的特徴です。\n\n#NOWAYTHIS #猫 #ギネス世界記録 #海外ニュース",
+    "captionEn": "A Wisconsin Maine Coon named Erebus has set the Guinness World Record for the most toes on a cat with 29 total digits. Guinness says the count was officially measured on May 13, 2026, surpassing the previous record of 28. The extra toes are caused by polydactyly, a genetic trait seen in some cats.\n\n#NOWAYTHIS #Cat #GuinnessWorldRecords #OddNews",
+    "thumbnailOptionsKr": ["발가락이 29개다", "고양이 맞습니다", "세어보니 29개"],
+    "thumbnailFinalKr": "발가락이 29개다",
+    "photoCandidate": "실제 Erebus의 앞발이 크게 보이는 사진. 가능하면 Guinness World Records 공식 기록 페이지 또는 소유주/지역 방송이 공개한 실제 사진 중 발가락이 육안으로 가장 잘 보이는 컷",
+    "photoSource": "https://www.guinnessworldrecords.com/world-records/most-toes-on-a-cat",
+    "layoutKr": "실제 고양이 사진 한 장을 4:5로 사용. 얼굴보다 앞발이 크게 보이도록 크롭하고, 발가락 부분은 가리지 않는다. 상단 여백에 흰색 굵은 글씨 두 줄로 ‘발가락이 / 29개다’. 하단 설명·출처·CTA는 이미지에 넣지 않음.",
+    "ctaKr": "사진만 보고 발가락이 몇 개인지 맞힐 수 있었나요?",
+    "factSources": ["https://www.guinnessworldrecords.com/world-records/most-toes-on-a-cat","https://www.theguardian.com/world/2026/aug/25/wisconsin-kitten-29-toes-world-record","https://www.upi.com/Odd_News/2026/08/24/Guinness-World-Records-most-toes-cat/6971787582316/","https://abcnews.com/video/135911439/"]
   }
 ]
