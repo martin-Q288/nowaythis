@@ -1,0 +1,12 @@
+(()=>{
+const TKEY='nwf-trash-v1',TARGET=12,INTERVAL=60*60*1000;
+function getTrash(){try{return JSON.parse(localStorage.getItem(TKEY))||[]}catch{return []}}
+function norm(s=''){return String(s).toLowerCase().replace(/[^a-z0-9가-힣ぁ-んァ-ン一-龥]+/g,' ').trim()}
+function tokens(s=''){return new Set(norm(s).split(/\s+/).filter(w=>w.length>1))}
+function similar(a,b){const A=tokens(a),B=tokens(b);if(!A.size||!B.size)return false;let n=0;A.forEach(x=>{if(B.has(x))n++});return n/Math.min(A.size,B.size)>=.65}
+function blockedByMemo(item,trash){const memo=trash.flatMap(t=>[...(t.trashReasons||[]),t.trashMemo||'']).join(' ');if(/정치|사회성|정책/.test(memo)&&/(대통령|정부|국회|정책|선거|minister|president|election|government)/i.test(item.title))return true;if(/사진이 약|썸네일/.test(memo)&&item.visualScore&&item.visualScore<4)return true;return false}
+function isBlocked(item){const t=getTrash();return t.some(x=>(x.source&&item.source&&x.source===item.source)||norm(x.title)===norm(item.title)||similar(x.title,item.title))||blockedByMemo(item,t)}
+function makeItem(r){const id='auto-'+(r.id||Date.now()+Math.random().toString(36).slice(2));const title=r.titleKr||r.title,hk=r.hookKr||title,hj=r.hookJp||'海外で話題\n何が起きた？';return normalize([{id,title,score:r.score||28,cat:r.cat||'해외토픽',status:'READY',source:r.source||'',hooksKr:[hk,r.hookKr2||title,'무슨 일이 있었나'],hooksJp:[hj,r.hookJp2||'何が起きたのか','現場が話題に'],hook:0,headlineKr:hk,headlineJp:hj,captionKr:r.captionKr||`${title}\n\n해외에서 새롭게 화제가 된 이슈입니다. 공개된 보도와 원문을 기준으로 핵심 상황과 배경을 확인한 뒤 게시할 수 있도록 READY에 자동 추가됐습니다.\n\n원문 출처와 날짜, 핵심 사실을 한 번 더 확인한 뒤 발행하세요.\n\n#NOWAYTHIS #해외토픽 #바이럴`,captionJp:r.captionJp||`海外で新たに話題になっているトピックです。\n\n公開情報をもとに、背景とポイントを確認してから投稿できるようREADYに追加されました。\n\n#NOWAYTHIS #海外ニュース #話題`,music:['original audio','trending audio','news audio'],fact:['원문 출처 확인','게시 날짜 확인','핵심 사실 교차 확인'],done:[],images:[]}])[0]}
+async function syncRadar(){try{const res=await fetch(`radar-feed.json?v=${Date.now()}`,{cache:'no-store'});if(!res.ok)return;const feed=await res.json(),ready=data.filter(x=>x.status==='READY').length;if(ready>=TARGET)return;const existing=data.map(x=>x.title);let add=[];for(const r of feed){if(add.length>=TARGET-ready)break;if(!r?.title||isBlocked(r)||existing.some(t=>norm(t)===norm(r.title)||similar(t,r.title)))continue;add.push(makeItem(r));existing.push(r.title)}if(add.length){data.push(...add);persist();render();toast(`새 이슈 ${add.length}개가 READY에 추가됐습니다`)}}catch(e){console.warn('radar sync',e)}}
+window.syncRadarNow=syncRadar;setTimeout(syncRadar,1500);setInterval(syncRadar,INTERVAL);
+})();
