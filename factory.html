@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#08090b">
 <title>NO WAY FACTORY</title>
 <link rel="stylesheet" href="factory-v2.css?v=20260825-2140">
+<link rel="stylesheet" href="factory-caption.css?v=20260825-2207">
 </head>
 <body>
 <div class="shell">
@@ -40,8 +41,8 @@
       <label>제목<input id="newTitle" placeholder="무슨 일이 벌어졌는지 한 문장으로"></label>
       <label>기사·원본 URL<input id="newSource" placeholder="https://..."></label>
       <div class="two"><label>KR 헤드라인<textarea id="newKr" placeholder="Enter로 줄바꿈"></textarea></label><label>JP 헤드라인<textarea id="newJp" placeholder="Enterで改行"></textarea></label></div>
-      <label>KR 캡션<textarea id="newCapKr"></textarea></label>
-      <label>JP 캡션<textarea id="newCapJp"></textarea></label>
+      <label>KR 캡션<textarea id="newCapKr" placeholder="권장 350~650자 · 첫줄 훅 → 사건 개요 → 디테일 → 팩트 → CTA"></textarea></label>
+      <label>JP 캡션<textarea id="newCapJp" placeholder="推奨 220〜500文字 · hook → context → detail → fact → CTA"></textarea></label>
       <div class="form-actions"><button class="primary" id="saveNew">추가하고 이미지 찾기</button></div>
     </div>
   </div>
@@ -49,5 +50,6 @@
 <input id="fileInput" type="file" accept="image/*" hidden>
 <div id="toast" class="toast"></div>
 <script src="factory-v2.js?v=20260825-2140"></script>
+<script src="factory-caption.js?v=20260825-2207"></script>
 </body>
 </html>
