@@ -9,6 +9,16 @@ const PATTERNS={
   'VISUAL FIRST':{label:'장면 우선',mode:'VISUAL-FIRST',format:'REELS 우선',why:'사진·영상만으로 이미 이해되는 소재는 큰 텍스트가 오히려 장면을 가립니다.',first:'텍스트 0~1줄. 화면의 80% 이상을 실제 장면에 양보하세요.',reel:'첫 1초 최고 장면 → 짧은 맥락 → 반복 시청이 가능한 마무리.',carousel:'1 강한 비주얼 → 2~4 장소·숫자·세부정보. 텍스트 최소.'},
   'COMPLETE FACT':{label:'완결형 사실',mode:'HEADLINE-FIRST',format:'CAROUSEL 강함',why:'첫 카드에서 핵심 사실을 상당 부분 공개하고 뒤에서 근거를 보완하는 구조입니다.',first:'누가·무엇을·무슨 일이 있었는지 한 문장으로 완결하세요.',reel:'0~2초 핵심 사실 → 2~7초 증거 → 7~11초 맥락.',carousel:'1 완결형 사실 → 2 사건 → 3 근거/숫자 → 4 현재/결론.'}
 };
+const EVIDENCE={
+  'RECOGNITION + CHANGE':{posts:18,accounts:8,median:6.98,max:23.8,stage:'STRONG',note:'60표본에서 가장 반복성이 높았습니다. 다만 이름만 유명한 단순 발표는 약한 반례도 있습니다.'},
+  'VISUAL FIRST':{posts:4,accounts:4,median:3.75,max:7.93,stage:'PROMISING',note:'서로 다른 4계정에서 장면 자체가 훅인 콘텐츠가 강했습니다. 10표본 전까지 과신하지 않습니다.'},
+  'DANGER → PAYOFF':{posts:4,accounts:4,median:2.78,max:4.18,stage:'PROMISING',note:'위기→행동→해결의 감정 곡선이 계정이 달라도 반복됐습니다.'},
+  'RESULT FIRST':{posts:3,accounts:2,median:2.76,max:4.2,stage:'EARLY',note:'방향은 좋지만 정량 표본이 2개 계정에 집중되어 있어 현재 prior 이상으로 올리지 않습니다.'},
+  'ARCHIVE + CURRENT PEG':{posts:3,accounts:3,median:2.31,max:43.64,stage:'EARLY-PROMISING',note:'독립 3계정에서 확인됐지만 43.64배 극단치가 있어 평균은 사용하지 않습니다. 낮은 prior를 유지합니다.'},
+  'WHAT + WHY WOW':{posts:4,accounts:3,median:2.10,max:2.63,stage:'PROMISING',note:'기술·과학은 결과를 먼저 보여준 뒤 이유를 설명하는 구조가 안정적이었습니다.'},
+  'WEIRD BUT TRUE':{posts:6,accounts:5,median:2.04,max:11.48,stage:'PROMISING',note:'기묘함이 실제 비주얼로 증명될 때 여러 계정에서 반복됐습니다.'},
+  'COMPLETE FACT':{posts:7,accounts:5,median:2.02,max:2.72,stage:'BASELINE',note:'폭발형이라기보다 첫 카드 정보 전달의 안정적인 베이스라인으로 보입니다.'}
+};
 const KNOWN=/(테일러|스위프트|호날두|메시|비버|셀레나|젠데이아|시드니 스위니|톰 크루즈|브래드 피트|디카프리오|카다시안|제너|홀란|음바페|배드 버니|비욘세|아리아나|레이디 가가|브루노 마스|빌리 아일리시|두아 리파|BTS|BLACKPINK|KATSEYE|Taylor Swift|Ronaldo|Messi|Bieber|Zendaya|Sydney Sweeney|Tom Cruise|Brad Pitt|Haaland|Bad Bunny|Beyonce|Ariana Grande|Lady Gaga|Billie Eilish)/i;
 const CHANGE=/(최초|기록|번째|년 만|년째|생일|결혼|약혼|열애|이별|복귀|변신|헤어|삭발|금발|공개|출연|캐스팅|우승|수상|팔로워|증가|은퇴|first|record|birthday|wedding|engag|dating|breakup|returns?|debut|wins?|award|retir|million|billion|%|\d)/i;
 const ARCHIVE=/(과거|예전|당시|재조명|재소환|다시 화제|몇 년 전|옛 영상|옛날 영상|과거 영상|과거 발언|old (video|clip|interview|comments?)|throwback|resurfac|years ago|from 20\d\d)/i;
@@ -37,17 +47,18 @@ function escB(s=''){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&l
 function panel(){
   if(typeof current!=='function')return '';
   const x=current();if(!x)return '';
-  const inf=infer(x),p=PATTERNS[inf.code],aw=awareness(x),visual=Number(x.visualScore||x.radarMeta?.visualScore||4);
+  const inf=infer(x),p=PATTERNS[inf.code],ev=EVIDENCE[inf.code],aw=awareness(x),visual=Number(x.visualScore||x.radarMeta?.visualScore||4);
   const patternButtons=Object.keys(PATTERNS).map(k=>`<button class="bm-pattern ${k===inf.code?'active':''}" onclick="benchmarkSetPattern('${escB(k)}')">${escB(PATTERNS[k].label)}</button>`).join('');
   const awarenessButtons=[1,2,3,4,5].map(n=>`<button class="bm-aware ${n===aw?'active':''}" onclick="benchmarkSetAwareness(${n})">${n}</button>`).join('');
   const archiveNote=inf.code==='ARCHIVE + CURRENT PEG'?'<div class="bm-archive-warning"><b>시점 표시 필수</b><span>과거 촬영·발언 시점과 현재 다시 화제가 된 이유를 분리해 적으세요. 과거 영상을 오늘 영상처럼 보이게 만들면 안 됩니다.</span></div>':'';
+  const evidence=ev?`<div class="bm-evidence"><div><b>외부 실증 · ${escB(ev.stage)}</b><span>A급 ${ev.posts}포스트 · ${ev.accounts}독립계정 · 중앙 Reach/Follower ${ev.median.toFixed(2)}×</span></div><p>${escB(ev.note)}</p></div>`:'';
   return `<section class="benchmark-advisor" data-benchmark-advisor="1">
-    <div class="bm-head"><div><span>BENCHMARK LEARNING</span><strong>${escB(p.label)}</strong></div><div class="bm-badges"><b>${escB(p.mode)}</b><b>${escB(p.format)}</b><em>${inf.confidence}%</em></div></div>
+    <div class="bm-head"><div><span>BENCHMARK LEARNING</span><strong>${escB(p.label)}</strong></div><div class="bm-badges"><b>${escB(p.mode)}</b><b>${escB(p.format)}</b><em>분류 ${inf.confidence}%</em></div></div>
     <p class="bm-why"><b>왜 이 패턴인가</b>${escB(p.why)} <small>· ${escB(inf.source)}</small></p>
-    ${archiveNote}
+    ${evidence}${archiveNote}
     <div class="bm-rules"><div><span>첫 화면</span><p>${escB(p.first)}</p></div><div><span>REELS</span><p>${escB(p.reel)}</p></div><div><span>CAROUSEL</span><p>${escB(p.carousel)}</p></div></div>
     <div class="bm-control"><div><span>패턴 직접 변경</span><div class="bm-patterns">${patternButtons}</div></div><div class="bm-awareness"><span>한국 인지도 <small>· ${aw}/5</small></span><div>${awarenessButtons}</div></div></div>
-    <div class="bm-foot"><span>시각 신호 ${visual}/5</span><span>500채널 + 실제 포스트 학습 규칙</span><span>출처·권리 확인은 별도 Hard Gate</span></div>
+    <div class="bm-foot"><span>시각 신호 ${visual}/5</span><span>500채널 + 60포스트 실증</span><span>외부 트래커는 상대 비교용 · 출처/권리는 별도 Hard Gate</span></div>
   </section>`;
 }
 function mount(){
@@ -58,7 +69,7 @@ function mount(){
 }
 window.benchmarkSetPattern=(code)=>{const x=typeof current==='function'?current():null;if(!x||!PATTERNS[code])return;x.benchmarkPatternOverride=code;x.radarMeta=x.radarMeta||{};x.radarMeta.patternCode=code;try{persist()}catch{};try{renderStudio()}catch{};try{toast(`패턴을 ${PATTERNS[code].label}로 변경했습니다`)}catch{}};
 window.benchmarkSetAwareness=(n)=>{const x=typeof current==='function'?current():null;if(!x)return;x.koreaAwareness=Math.max(1,Math.min(5,+n||3));x.radarMeta=x.radarMeta||{};x.radarMeta.koreaAwareness=x.koreaAwareness;try{persist()}catch{};try{renderStudio()}catch{};};
-window.NWBenchmarkLearning={infer,PATTERNS,awareness};
+window.NWBenchmarkLearning={infer,PATTERNS,EVIDENCE,awareness};
 try{const before=renderStudio;renderStudio=function(){before();requestAnimationFrame(mount)}}catch(e){console.warn('benchmark advisor mount',e)}
 window.addEventListener('load',()=>setTimeout(mount,420));
 })();
