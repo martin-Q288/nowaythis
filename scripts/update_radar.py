@@ -2,11 +2,13 @@ import json, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 
-# Benchmark learning v3 (500 channels): discover by repeatable viral pattern,
-# not only by category. Keep several small searches so one noisy query cannot dominate.
+# Benchmark learning v4: discovery is driven by repeatable viral patterns and
+# now also searches for ARCHIVE + CURRENT PEG opportunities.
 QUERIES = [
     ('해외연예', '("테일러 스위프트" OR "호날두" OR "메시" OR "저스틴 비버" OR "셀레나 고메즈" OR "젠데이아" OR "시드니 스위니" OR "톰 크루즈" OR "브래드 피트" OR "레오나르도 디카프리오" OR "홀란" OR "배드 버니") when:2d'),
     ('해외연예', '해외 연예 (결혼 OR 약혼 OR 열애 OR 이별 OR 복귀 OR 최초 OR 기록 OR 깜짝 OR 화제) when:2d'),
+    ('아카이브재소환', '("과거 영상" OR "과거 발언" OR "예전 영상" OR "재조명" OR "재소환" OR "다시 화제") (해외 OR 스타 OR 선수 OR 배우 OR 가수) when:2d'),
+    ('아카이브재소환', '("old video" OR "old clip" OR "past interview" OR "old comments" OR resurfaces OR throwback) ("Taylor Swift" OR Ronaldo OR Messi OR "Justin Bieber" OR Zendaya OR "Tom Cruise" OR "Brad Pitt" OR Haaland OR "Bad Bunny") when:2d'),
     ('해외토픽', '해외 (기묘 OR 충격 OR 화제 OR 바이럴 OR 발견 OR 기록 OR 희귀) when:2d'),
     ('동물', '해외 동물 (구조 OR 갇힌 OR 화재 OR 발견 OR 희귀 OR 생존 OR 영상) when:2d'),
     ('동물', '(강아지 OR 고양이 OR 곰 OR 뱀 OR 고래 OR 상어 OR 기린 OR 코끼리) (구조 OR 발견 OR 화제 OR 생존) 해외 when:2d'),
@@ -16,12 +18,13 @@ QUERIES = [
     ('글로벌팝', '(KATSEYE OR BTS OR BLACKPINK OR "브루노 마스" OR "빌리 아일리시" OR "레이디 가가" OR "두아 리파" OR "아리아나 그란데" OR "배드 버니") when:2d'),
 ]
 
-POSITIVE = re.compile(r'(결혼|열애|이별|약혼|복귀|최초|기록|공연|콘서트|파격|깜짝|화제|바이럴|기묘|충격|희귀|구조|구한|선행|감동|생존|발견|동물|강아지|고양이|곰|뱀|고래|상어|기린|코끼리|로봇|AI|인공지능|발명|과학|기술|우주|유전자|celebrity|wedding|dating|breakup|record|first|viral|bizarre|rare|rescue|saved|survival|animal|robot|science|technology|found|Taylor|Swift|Ronaldo|Messi|Bieber|Gomez|Zendaya|Sweeney|Haaland|Bad Bunny|KATSEYE|BTS|BLACKPINK)', re.I)
+POSITIVE = re.compile(r'(결혼|열애|이별|약혼|복귀|최초|기록|공연|콘서트|파격|깜짝|화제|바이럴|기묘|충격|희귀|구조|구한|선행|감동|생존|발견|동물|강아지|고양이|곰|뱀|고래|상어|기린|코끼리|로봇|AI|인공지능|발명|과학|기술|우주|유전자|과거 영상|과거 발언|예전 영상|재조명|재소환|다시 화제|celebrity|wedding|dating|breakup|record|first|viral|bizarre|rare|rescue|saved|survival|animal|robot|science|technology|found|old video|old clip|past interview|old comments|resurfaces|throwback|Taylor|Swift|Ronaldo|Messi|Bieber|Gomez|Zendaya|Sweeney|Haaland|Bad Bunny|KATSEYE|BTS|BLACKPINK)', re.I)
 NEGATIVE = re.compile(r'(정치|정부|정책|대통령|국회|선거|경제|증시|부동산|교육정책|복지정책|칼럼|사설|오피니언|정당|후보|policy|government|president|election|column|opinion|advocate|council|funding|system|bingo|calendar|schedule)', re.I)
 HEAD = {'User-Agent': 'Mozilla/5.0 NO-WAY-FACTORY/1.0'}
 
 KNOWN = re.compile(r'(테일러 스위프트|호날두|메시|저스틴 비버|셀레나 고메즈|젠데이아|시드니 스위니|톰 크루즈|브래드 피트|레오나르도 디카프리오|킴 카다시안|카일리 제너|홀란|음바페|배드 버니|비욘세|아리아나 그란데|KATSEYE|BTS|BLACKPINK|브루노 마스|빌리 아일리시|레이디 가가|두아 리파|Taylor Swift|Ronaldo|Messi|Justin Bieber|Selena Gomez|Zendaya|Sydney Sweeney|Tom Cruise|Brad Pitt|Leonardo DiCaprio|Kim Kardashian|Kylie Jenner|Haaland|Mbappe|Bad Bunny|Beyonce|Ariana Grande)', re.I)
-CHANGE = re.compile(r'(최초|기록|번째|년 만|생일|결혼|약혼|열애|이별|복귀|변신|헤어|삭발|금발|공개|출연|캐스팅|우승|수상|팔로워|증가|first|record|birthday|wedding|engag|dating|breakup|return|debut|wins?|award|million|billion|%|\d)', re.I)
+CHANGE = re.compile(r'(최초|기록|번째|년 만|생일|결혼|약혼|열애|이별|복귀|변신|헤어|삭발|금발|공개|출연|캐스팅|우승|수상|팔로워|증가|은퇴|first|record|birthday|wedding|engag|dating|breakup|return|debut|wins?|award|retir|million|billion|%|\d)', re.I)
+ARCHIVE = re.compile(r'(과거|예전|당시|재조명|재소환|다시 화제|몇 년 전|옛 영상|옛날 영상|과거 영상|과거 발언|old (video|clip|interview|comments?)|throwback|resurfac|years ago|from 20\d\d)', re.I)
 DANGER = re.compile(r'(구조|구했다|구한|구해|갇힌|불길|화재|익사|물에 빠|추락|생존|실종|위기|rescue|saved?|trapped|fire|drown|surviv|stuck)', re.I)
 ANIMAL = re.compile(r'(강아지|고양이|곰|뱀|고래|상어|기린|코끼리|동물|반려견|puppy|dog|cat|bear|snake|whale|shark|giraffe|elephant|animal)', re.I)
 WEIRD = re.compile(r'(기묘|정체불명|희귀|이상한|괴상|미스터리|처음 보는|발견|실제로|bizarre|weird|strange|mysterious|rare|odd|found)', re.I)
@@ -35,6 +38,7 @@ PATTERN_BONUS = {
     'WHAT + WHY WOW': 2,
     'RESULT FIRST': 2,
     'VISUAL FIRST': 1,
+    'ARCHIVE + CURRENT PEG': 1,
     'COMPLETE FACT': 1,
 }
 
@@ -65,6 +69,8 @@ def hours_old(pub):
 
 def infer_pattern(title, cat):
     t = f'{title} {cat}'
+    if ARCHIVE.search(t) and (KNOWN.search(t) or CHANGE.search(t)):
+        return 'ARCHIVE + CURRENT PEG'
     if DANGER.search(t) and (ANIMAL.search(t) or re.search(r'(사람|남성|여성|아이|아버지|어머니|man|woman|child)', t, re.I)):
         return 'DANGER → PAYOFF'
     if KNOWN.search(t) and CHANGE.search(t):
@@ -83,10 +89,11 @@ def infer_pattern(title, cat):
 def korea_awareness(title, cat):
     if KNOWN.search(title):
         return 5
-    # Animals, rescue, weird and visual science can cross language/culture barriers.
     if cat in ('동물', '휴먼') or ANIMAL.search(title):
         return 4
     if cat in ('해외토픽', '기술과학', '스포츠휴먼') and (WEIRD.search(title) or TECH.search(title) or RESULT.search(title)):
+        return 4
+    if cat == '아카이브재소환' and ARCHIVE.search(title):
         return 4
     return 3
 
@@ -94,7 +101,7 @@ def korea_awareness(title, cat):
 def visual_score(title, cat, pattern):
     if pattern in ('DANGER → PAYOFF', 'RESULT FIRST', 'VISUAL FIRST'):
         return 5
-    if pattern in ('WEIRD BUT TRUE', 'WHAT + WHY WOW'):
+    if pattern in ('WEIRD BUT TRUE', 'WHAT + WHY WOW', 'ARCHIVE + CURRENT PEG'):
         return 4
     if cat in ('동물', '휴먼', '스포츠휴먼'):
         return 5
@@ -179,15 +186,14 @@ def main():
                 'visualScore': visual,
                 'koreaAwareness': awareness,
                 'patternCode': pattern,
-                'patternConfidence': 92 if pattern in ('DANGER → PAYOFF', 'RECOGNITION + CHANGE') else 82,
+                'patternConfidence': 93 if pattern == 'ARCHIVE + CURRENT PEG' else (92 if pattern in ('DANGER → PAYOFF', 'RECOGNITION + CHANGE') else 82),
                 'visualMode': pattern_mode(pattern),
                 'formatRecommendation': format_recommendation(pattern),
-                'benchmarkVersion': '500ch-v3',
+                'archiveContext': pattern == 'ARCHIVE + CURRENT PEG',
+                'benchmarkVersion': '500ch-v4',
             })
 
-    # Preserve a broad pool. Browser-side ranking combines score, freshness,
-    # Korea awareness, visual strength and benchmark pattern strength.
-    out = sorted(out, key=lambda x: (x['score'], x['koreaAwareness'], x['visualScore'], -hours_old(x['publishedAt'])), reverse=True)[:100]
+    out = sorted(out, key=lambda x: (x['score'], x['koreaAwareness'], x['visualScore'], -hours_old(x['publishedAt'])), reverse=True)[:120]
     with open('radar-feed.json', 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     print('radar candidates:', len(out))
