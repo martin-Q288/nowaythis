@@ -1,9 +1,10 @@
 (()=>{
-const LIVE_FEED='curated-radar-live.json';
+const LIVE_FEEDS=['curated-radar-live.json','curated-radar-automation.json'];
 function n(s=''){return String(s).toLowerCase().replace(/[^a-z0-9가-힣]+/g,' ').trim()}
 function similarTitle(a,b){const A=new Set(n(a).split(/\s+/).filter(Boolean)),B=new Set(n(b).split(/\s+/).filter(Boolean));if(!A.size||!B.size)return false;let hit=0;A.forEach(v=>{if(B.has(v))hit++});return hit/Math.min(A.size,B.size)>=.65}
 function make(r){const hk=r.hookKr||r.titleKr||r.title;return normalize([{id:'live-'+r.id,title:r.titleKr||r.title,score:r.score||28,cat:r.cat||'해외토픽',status:'READY',source:r.source||'',publisher:r.publisher||'',publishedAt:r.publishedAt||'',hooksKr:[hk,r.hookKr2||r.titleKr||r.title,'무슨 일이 있었나'],hooksJp:[r.hookJp||'海外で話題\n何が起きた？','何が起きたのか','現場が話題に'],hook:0,headlineKr:hk,headlineJp:r.hookJp||'海外で話題\n何が起きた？',captionKr:r.captionKr||'',captionJp:r.captionJp||'',captionEn:r.captionEn||'',music:['original audio','trending audio','news audio'],fact:['원문 출처 확인','게시 날짜 확인','핵심 사실 교차 확인'],done:[],images:[],radarMeta:{scoreBreakdown:r.scoreBreakdown||null,thumbnailOptionsKr:r.thumbnailOptionsKr||[],thumbnailFinalKr:r.thumbnailFinalKr||'',photoCandidate:r.photoCandidate||'',photoSource:r.photoSource||'',layoutKr:r.layoutKr||'',ctaKr:r.ctaKr||'',factSources:r.factSources||[],freshness:r.freshness||''}}])[0]}
-async function syncLive(){try{const res=await fetch(`${LIVE_FEED}?v=${Date.now()}`,{cache:'no-store'});if(!res.ok)return;const feed=await res.json();if(!Array.isArray(feed))return;let changed=false;for(const r of feed){if(!r?.title||Number(r.score)<27)continue;if(data.some(x=>(x.source&&r.source&&x.source===r.source)||n(x.title)===n(r.title)||similarTitle(x.title,r.title)))continue;data.unshift(make(r));changed=true}if(changed){persist();render()}}catch(e){console.warn('live radar sync',e)}}
+async function fetchFeed(path){try{const res=await fetch(`${path}?v=${Date.now()}`,{cache:'no-store'});if(!res.ok)return[];const feed=await res.json();return Array.isArray(feed)?feed:[]}catch{return[]}}
+async function syncLive(){try{const feeds=await Promise.all(LIVE_FEEDS.map(fetchFeed));const feed=feeds.flat();let changed=false;for(const r of feed){if(!r?.title||Number(r.score)<27)continue;if(data.some(x=>(x.source&&r.source&&x.source===r.source)||n(x.title)===n(r.title)||similarTitle(x.title,r.title)))continue;data.unshift(make(r));changed=true}if(changed){persist();render()}}catch(e){console.warn('live radar sync',e)}}
 window.syncLiveRadarNow=syncLive;
 setTimeout(syncLive,1100);
 })();
