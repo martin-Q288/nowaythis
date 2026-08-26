@@ -14,7 +14,98 @@
     "patternConfidence": 82,
     "visualMode": "VISUAL-FIRST",
     "formatRecommendation": "REELS 우선",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "bts-진-에스파-닝닝-올데프-타잔-색다른-분위기-구찌-새-캠페인-공개",
+    "title": "BTS 진·에스파 닝닝·올데프 타잔, 색다른 분위기…구찌 새 캠페인 공개",
+    "titleKr": "BTS 진·에스파 닝닝·올데프 타잔, 색다른 분위기…구찌 새 캠페인 공개",
+    "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iOE95TUJwUDN6V1RZSU5ubE1xa2RueHotenFRbTRocEwxUFVnNFdqMlZVRVFHT05PWXlvUDhwanpScE5vNW9xSzZVZDMxMG9oMnRFYU9vMDV5dTYy?oc=5",
+    "publisher": "supple.kr",
+    "publishedAt": "Wed, 26 Aug 2026 01:43:05 GMT",
+    "cat": "해외연예",
+    "score": 30,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "RECOGNITION + CHANGE",
+    "patternConfidence": 92,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "REELS + CAROUSEL",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "오피셜-홀란-라이스-제쳤다-맨체스터-유나이티드-16년-만에-초대박-캡틴-pfa-올해의-선수-선정-나와-맞붙는-선수들의-투표로",
+    "title": "[오피셜] 홀란-라이스 제쳤다! 맨체스터 유나이티드 16년 만에 '초대박'...'캡틴' PFA 올해의 선수 선정, \"나와 맞붙는 선수들의 투표로 수상\"",
+    "titleKr": "[오피셜] 홀란-라이스 제쳤다! 맨체스터 유나이티드 16년 만에 '초대박'...'캡틴' PFA 올해의 선수 선정, \"나와 맞붙는 선수들의 투표로 수상\"",
+    "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xUlRORWNlZXQ3Q0ZqSTd4ck9URWlDWkFPOUR6d2t2MjFLUE9hNXlHdjhHelQxdU4wY0J1elhRTnVsMUtVeW1NVVdROTlXUWd4VDNmQnk4Q3ctZ0Q3MXBYLVdDUXEwQQ?oc=5",
+    "publisher": "마이데일리",
+    "publishedAt": "Wed, 26 Aug 2026 01:33:00 GMT",
+    "cat": "해외연예",
+    "score": 30,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "RECOGNITION + CHANGE",
+    "patternConfidence": 92,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "REELS + CAROUSEL",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "짜증만-내던-호날두-45분만에-칼교체-손흥민과-우승-포스텍-감독-지도력-이-정도였나-수적-열세-속-0-2-3-2-기적의-역전",
+    "title": "\"짜증만 내던 호날두 45분만에 칼교체\" '손흥민과 우승' 포스텍 감독 지도력 이 정도였나, 수적 열세 속 '0-2→3-2' 기적의 역전승 결실",
+    "titleKr": "\"짜증만 내던 호날두 45분만에 칼교체\" '손흥민과 우승' 포스텍 감독 지도력 이 정도였나, 수적 열세 속 '0-2→3-2' 기적의 역전승 결실",
+    "source": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YQU1jYTltZDlMbGlUekpZeFV2bC1mMDdwTnlPRjc2YnEydGI4azFROVdnc0l3REtkTHJ4VHM4ZFV6TGpIVFlFQ1g0bmNweVNHSklObmdrcjZ6ajl1WHdRdFkzX3pPTW5yMW9ETEFpS0FRLVBGWHZ5bm1tYmlZdw?oc=5",
+    "publisher": "스포츠조선",
+    "publishedAt": "Wed, 26 Aug 2026 01:31:14 GMT",
+    "cat": "해외연예",
+    "score": 30,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "RECOGNITION + CHANGE",
+    "patternConfidence": 92,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "REELS + CAROUSEL",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "bts-진-킬링파트-장인-1위-아이돌차트-설문-최다-득표",
+    "title": "BTS 진, ‘킬링파트 장인’ 1위…아이돌차트 설문 최다 득표",
+    "titleKr": "BTS 진, ‘킬링파트 장인’ 1위…아이돌차트 설문 최다 득표",
+    "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlNWtnOHl0STRJYWFBUlJsUnBIanFybHRmRUZob1N0SjdZNEZFRHNsYTBhTDF1RDVKSHZqOGc3RzNVVmtrSXJ3VW1YUnIwMmUtTnNuSTZuaUhpUkVxU3o5YzVlNWN5ei1rV0Y3UW00dy1kQQ?oc=5",
+    "publisher": "톱스타뉴스",
+    "publishedAt": "Wed, 26 Aug 2026 01:20:36 GMT",
+    "cat": "해외연예",
+    "score": 30,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "RECOGNITION + CHANGE",
+    "patternConfidence": 92,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "REELS + CAROUSEL",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "bts-뷔-sns서-멤버들-일상-셀카-공개-정국부터-rm까지-유쾌한-반응-폭발",
+    "title": "BTS 뷔, SNS서 멤버들 일상 셀카 공개… 정국부터 RM까지 유쾌한 반응 폭발",
+    "titleKr": "BTS 뷔, SNS서 멤버들 일상 셀카 공개… 정국부터 RM까지 유쾌한 반응 폭발",
+    "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yYkpHSWRQelV0Sko0S0Q3S1JyUGotZ2x3OTBvNC1XZG95bS0zQXUybU1tX0s1ZXpRTlRrT3ZKWnlNUzdsZTRkZzZmUDlqcnlQTThpZXdNeFprcnF0d2VMR2wzSm5SMk1fZ0MyZ0E2Y2hRZ1k?oc=5",
+    "publisher": "스페셜타임스",
+    "publishedAt": "Wed, 26 Aug 2026 01:12:13 GMT",
+    "cat": "해외연예",
+    "score": 30,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "RECOGNITION + CHANGE",
+    "patternConfidence": 92,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "REELS + CAROUSEL",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "구찌-새로운-구찌-프리마베라-캠페인-공개-bts-진-에스파-닝닝-등-참여",
@@ -31,13 +122,14 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지민-공연서-소아암-소녀-포옹-팬-기부-1억원-넘어",
     "title": "BTS 지민, 美 공연서 소아암 소녀 포옹…팬 기부 1억원 넘어",
     "titleKr": "BTS 지민, 美 공연서 소아암 소녀 포옹…팬 기부 1억원 넘어",
-    "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sUUhSaUFGQ2xuNXlPUjVQWEllUmd0X0dYdmFndm0wa3VkdTktb2M0TjdMbV9HRExBU1ZsMnRBUlppdzlydGRiay1fdlVkcDlmRXBnVE1sX3RsWVRKXzY2eUU2MDh1Wjg0QVdTb1lsQ0lkUQ?oc=5",
+    "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnSlVVTzhOZjNYY0N2TnJCdzJzSWh1T3RFOEgtMHBRMGNtRGo2NlhYWEtBZ1hjM2NYSWdQTnFzYWc4enNuTjJWckxxa2pxNDdUd0swVmNVN3pPRTd0ZElmRmg4Y1ppNjFVdEhjRDVLdlpXNEk?oc=5",
     "publisher": "스페셜타임스",
     "publishedAt": "Wed, 26 Aug 2026 01:05:44 GMT",
     "cat": "해외연예",
@@ -48,7 +140,26 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "bts의-스윔-프랑스서-골드-인증-정규-5집-아리랑-도-빌보드200-톱-차트-기록",
+    "title": "BTS의 '스윔', 프랑스서 골드 인증…정규 5집 ‘아리랑’도 빌보드200 톱 차트 기록",
+    "titleKr": "BTS의 '스윔', 프랑스서 골드 인증…정규 5집 ‘아리랑’도 빌보드200 톱 차트 기록",
+    "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVMjBLQTBBazNDMEQ2bmV0NVg1b1M4TU9ScnB0UFBRWURRZnhldm9RQWx1RDdMREFIT2tubjRxNXBkWXBadEV5MkdsbTR6dnlxX19SbE5NWmY2ejE3UHN2YTRtME9fd2ZjV21Zeg?oc=5",
+    "publisher": "NANOOM ENERGY",
+    "publishedAt": "Wed, 26 Aug 2026 01:05:01 GMT",
+    "cat": "해외연예",
+    "score": 30,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "RECOGNITION + CHANGE",
+    "patternConfidence": 92,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "REELS + CAROUSEL",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지민-3년-연속-10월-생일-아이돌-1위-도전",
@@ -65,7 +176,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-팬덤-1억-3-000만-원-기부-소아암-어린이-치료-돕는다",
@@ -82,24 +194,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
-  },
-  {
-    "id": "bts-achieves-10th-gold-certification-in-france-how-swim-made-history",
-    "title": "BTS Achieves 10th Gold Certification in France: How ‘SWIM’ Made History",
-    "titleKr": "BTS Achieves 10th Gold Certification in France: How ‘SWIM’ Made History",
-    "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kRS1ZMnItZDg3bXAzMzAwbkVkRjJpLTZ6Z0NxRGJzdWc4b00xYTVwU3d0MnBZNEx0TEdpMDhGYVVnNGc0cnJZRlZ0SlJIaHd0cDVweEJmYmMweHRHZGJoN1hvb9IBa0FVX3lxTFBVRE54US03T2VvVWZUSldSS3BPRFpwZ1hsR0FiRURmcHVEMTZRV2pQWXhrcUN2UHVkc0h3X3VVcHFKb2FSR1ZVZzMtMWpNYkxQYy00YzZTTmppa2g1WWRzc3lnMzUxSHdOb0Vv?oc=5",
-    "publisher": "mhnse.com",
-    "publishedAt": "Wed, 26 Aug 2026 00:32:45 GMT",
-    "cat": "해외연예",
-    "score": 30,
-    "visualScore": 4,
-    "koreaAwareness": 5,
-    "patternCode": "RECOGNITION + CHANGE",
-    "patternConfidence": 92,
-    "visualMode": "HEADLINE-FIRST",
-    "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-진-에스파-닝닝-구찌-얼굴로-나란히-프리마베라-캠페인-공개",
@@ -116,7 +212,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "오피셜-홀란도-라이스도-아니었다-21도움-epl-신기록-작성한-페르난드스-pfa-올해의-선수-선",
@@ -133,15 +230,16 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
-    "id": "결혼-후-첫-선발-호날두-45분-뛰고-0-2-교체-굴욕-10명-알-나스르-마네-멀티골로-3-2-대역전승",
-    "title": "'결혼 후 첫 선발' 호날두, 45분 뛰고 0-2 교체 굴욕···'10명 알 나스르' 마네 멀티골로 3-2 대역전승",
-    "titleKr": "'결혼 후 첫 선발' 호날두, 45분 뛰고 0-2 교체 굴욕···'10명 알 나스르' 마네 멀티골로 3-2 대역전승",
-    "source": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ldG5BNHkzcWJZNE05YUxqQ1BsZHR4QjVsTlVlLTMwQnNjSW05UnlsMFdveGtJN2ZrU0hsNVBySWtUM2IwdXVpZDFWNEdJdGd5b2xDY1Y4VmVzbnZy?oc=5",
-    "publisher": "네이트",
-    "publishedAt": "Tue, 25 Aug 2026 23:58:00 GMT",
+    "id": "결혼-후-첫-선발-호날두-45분-뛰고-0-2-교체-굴욕-10명-알-나스르-마네-멀티골로-3-2-대역",
+    "title": "‘결혼 후 첫 선발’ 호날두, 45분 뛰고 0-2 교체 굴욕···‘10명 알 나스르’ 마네 멀티골로 3-2 대역...",
+    "titleKr": "‘결혼 후 첫 선발’ 호날두, 45분 뛰고 0-2 교체 굴욕···‘10명 알 나스르’ 마네 멀티골로 3-2 대역...",
+    "source": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mVzU5U3g4ZlZzVjZWNVN0Nk1lNWRvVVd4VUJJbHZrZm9qV2YtRXplYUpQUG1mRGFxaURBdjhNS3pvRk12WHp6Xzl0WTVnSjhPY1JhYkFiX2pSUV9Sdk1hQ0JoSdIBY0FVX3lxTE9mVzU5U3g4ZlZzVjZWNVN0Nk1lNWRvVVd4VUJJbHZrZm9qV2YtRXplYUpQUG1mRGFxaURBdjhNS3pvRk12WHp6Xzl0WTVnSjhPY1JhYkFiX2pSUV9Sdk1hQ0JoSQ?oc=5",
+    "publisher": "스포츠경향",
+    "publishedAt": "Tue, 25 Aug 2026 23:57:00 GMT",
     "cat": "해외연예",
     "score": 30,
     "visualScore": 4,
@@ -150,7 +248,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "지민이-만든-기적-bts-팬-아미-소아암-환아-위해-1억-2천만-원-기부",
@@ -167,7 +266,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "톰-홀랜드-젠데이아-부부-초대박-행진-스파이더맨4-3조-벌었다-친box",
@@ -184,7 +284,26 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "톰-홀랜드-젠데이아-부부-초대박-행진-스파이더맨4-3조-벌었다-친box-조선비즈",
+    "title": "톰 홀랜드♥︎젠데이아 부부 초대박 행진..'스파이더맨4' 3조 벌었다 [美친box] - 조선비즈",
+    "titleKr": "톰 홀랜드♥︎젠데이아 부부 초대박 행진..'스파이더맨4' 3조 벌었다 [美친box] - 조선비즈",
+    "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc01xWm9Ga3hJWVptQVlNVnFTcmNWdVFxSlRoUnU0TUxEdENrSVdsM0NZY1dXT0ZVMzJGeG1zclNxMHFpWUxGWDU1dFBkam9sQXhReUh3TGxaT1JqQW5XWGZZSVBpMHVvNnVvMk9uejlGc2JQMkJaaUthTTIwRmc2SzRSQVBfWjMxVl9ZNjZSbHlFUmE1TmdqYVRBWDbSAZwBQVVfeXFMUHNNcVpvRmt4SVlabUFZTVZxU3JjVnVRcUpUaFJ1NE1MRHRDa0lXbDNDWWNXV09GVTMyRnhtc3JTcTBxaVlMRlg1NXRQZGpvbEF4UXlId0xsWk9SakFuV1hmWUlQaTB1bzZ1bzJPbno5RnNiUDJCWmlLYU0yMEZnNks0UkFQX1ozMVZfWTY2Umx5RVJhNU5namFUQVg2?oc=5",
+    "publisher": "Chosunbiz",
+    "publishedAt": "Tue, 25 Aug 2026 22:56:00 GMT",
+    "cat": "해외연예",
+    "score": 30,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "RECOGNITION + CHANGE",
+    "patternConfidence": 92,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "REELS + CAROUSEL",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "10년-전-그날-호날두-uefa-올해의-선수-선정",
@@ -201,7 +320,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "오피셜-호날두에-이어-역대-두번째-역대-최다-21도움-신기록-쓴-맨체스터-유나이티드-주장-브루노-페르난데스-pfa-올해의-선",
@@ -218,7 +338,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "오피셜-칸토나-호날두-루니-그리고-브루노-21도움-신기록-페르난데스-pfa-올해의-선수-등극-맨유-16년-만의-쾌거",
@@ -235,7 +356,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "메시가-한국어로-인터뷰-입모양까지-번역하는-ai-더빙-의-두-얼굴",
@@ -252,7 +374,8 @@
     "patternConfidence": 82,
     "visualMode": "VISUAL-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "레이디-가가-ai-바이오테크-인간-피부-4주-생존",
@@ -269,7 +392,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "디깅노트-흑자-기업의-역설-오에스피-우진비앤지의-생존-방정식",
@@ -286,13 +410,32 @@
     "patternConfidence": 92,
     "visualMode": "VISUAL-FIRST",
     "formatRecommendation": "REELS 우선",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "호날두는-알-나스르가-승리하고-있는-상황에서-교체되었는데-이는-다소-의외의-결정이었다-감독은-이-결정을-어떻게-설명했을까",
+    "title": "호날두는 알 나스르가 승리하고 있는 상황에서 교체되었는데, 이는 다소 의외의 결정이었다. 감독은 이 결정을 어떻게 설명했을까?",
+    "titleKr": "호날두는 알 나스르가 승리하고 있는 상황에서 교체되었는데, 이는 다소 의외의 결정이었다. 감독은 이 결정을 어떻게 설명했을까?",
+    "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUmdScldweUNITkZHdUlfMlJFZXgxdFJiM1Z2elFXN2xnMWdzVmZhR05ZVjVtTVR2dlhoNWQtZWhhSl91aXE4Z1E1T3Vtcnp3QUVxMzR6Y1ZXb2FQajN2NFRMbmlYbGdidWtPNHB5SmF1NjJyLW93dWxyeFFra3V4MEJBVDh5di15UUNiSl9iSnJ0Z3pyQWxlU09qQzFRc245cllDV0JaZW1lOE5Q?oc=5",
+    "publisher": "Vietnam.vn",
+    "publishedAt": "Wed, 26 Aug 2026 01:14:16 GMT",
+    "cat": "해외연예",
+    "score": 29,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지민과-소아암-환아의-만남-전-세계-팬들의-기부-물결-일으켜",
     "title": "BTS 지민과 소아암 환아의 만남, 전 세계 팬들의 기부 물결 일으켜",
     "titleKr": "BTS 지민과 소아암 환아의 만남, 전 세계 팬들의 기부 물결 일으켜",
-    "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE83SVpPQ1Z1aXJJUlA4UUZVSlgtZTBZdFUxMmxaZmRSa0hBR3lhVXhtYU1KMWtyZW5CSXhTWHV5NENKQ1lYUzIxZHJkUzV6Ym5wVFpTdTA0Y21RODBLV0dyUE92c09XT2p2blEzMDJJTWE0Zw?oc=5",
+    "source": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xRGtpSENUVDN4dFQ0SWotSnN1Nno1eXNMWVFTN2RudWNONkQyVGNfRlhKZFkxWmVWc3FwWXo4OFBLVFhYbFA2eUY5bkh4WFlkUWFtdFgzeFEyVFJtSDZWV3ZMMTMzZEc4RDI3N1ZqVVVvVzQ?oc=5",
     "publisher": "스페셜타임스",
     "publishedAt": "Wed, 26 Aug 2026 01:05:36 GMT",
     "cat": "해외연예",
@@ -303,7 +446,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "해외-캠페인-이영애부터-bts-진까지-구찌-뎀나-첫-캠페인-론칭",
@@ -320,7 +464,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-뷔-정국-가까이-가면-물지만-베이홉은-순해",
@@ -337,7 +482,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "뼈-갈아서-한다-트라이댓-지드래곤-bts-정국-엑소-nct를-꿈꾸는-청년들-en-인터뷰",
@@ -354,15 +500,16 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-스윔-프랑스음반협회-싱글-부문-골드-인증-획득",
     "title": "BTS '스윔', 프랑스음반협회 싱글 부문 '골드' 인증 획득",
     "titleKr": "BTS '스윔', 프랑스음반협회 싱글 부문 '골드' 인증 획득",
-    "source": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nUXlWYkJJYUpGRHNaQVRsZTBmZHlFbFdaSm80YVRSdnlUZWhobEFUWFdMa0U3amtNVUtLcXd2ekg4ZWQ2U1lOblpxbEt4WC1pWWhz?oc=5",
-    "publisher": "네이트",
-    "publishedAt": "Tue, 25 Aug 2026 23:56:00 GMT",
+    "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQldWMml3cUlta2VTZExVSGh2Q2J6U3pyaXZLbVJ2ZFdEeXJsRmJOVjdCd0xhelhhR3F6b1B2VlI4dmwwUzRNSU9MYlI2ME9OMG1wMlJ0Q3BsR1NoYmdDallxNHQzTGdKakZuWndMQXdyV20tTHIzWUpTbmtJLTl4Wg?oc=5",
+    "publisher": "edaily.co.kr",
+    "publishedAt": "Tue, 25 Aug 2026 23:54:31 GMT",
     "cat": "해외연예",
     "score": 29,
     "visualScore": 4,
@@ -371,7 +518,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-티켓팅급-의대-지름길-이곳-에-n수생-몰린다-디지털대성-대해부",
@@ -388,7 +536,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-swim-프랑스-골드-인증-dynamite-다음으로-빨랐다",
@@ -405,7 +554,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-음반협회-인증-스윔-싱글-부문-골드-획득",
@@ -422,7 +572,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "문화-이슈-bts-swim-프랑스음반협회-싱글-부문-골드-인증-획득",
@@ -439,7 +590,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-다음은-캣츠아이-하이브-몸값-바뀐다",
@@ -456,7 +608,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-뷔-에스파-카리나-등-줄이어폰-트렌드-주도-내-귀에-실용성",
@@ -473,7 +626,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "단독-박우상-작곡가-화사-굿-굿바이-로-대박나더니-bts-진에-러브콜-ten인터뷰",
@@ -490,7 +644,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "역시-월드스타-송강-군대서-친해진-bts-뷔-만나면-밥-사",
@@ -507,7 +662,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지드래곤-이어-튜이드-신세계스퀘어-k팝-콘텐츠-확대",
@@ -524,7 +680,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "위버스-katseye-media-did-someone-say-bobs",
@@ -541,13 +698,14 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "거품-아니야-젠데이아-오디세이-6컷-찍고-120억-앤-해서웨이-보다-높아",
     "title": "\"거품 아니야?\" 젠데이아, '오디세이' 6컷 찍고 120억…앤 해서웨이 보다 높아",
     "titleKr": "\"거품 아니야?\" 젠데이아, '오디세이' 6컷 찍고 120억…앤 해서웨이 보다 높아",
-    "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZbXN6ZkpOck1JYVdSbVJtUlVHbUo3R3BleEQxbUVpbzdXU0dkMG9lbU96ZjRvOWM0R2dVZWRXUHFIcV9ac0lPUk5veTFmZnhqUkVvNHRlVDhBM0NkLWZDSDF3cHlfNnFtYmZFdA?oc=5",
+    "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXRms2Y2FCdDlaamlsXy1IR3hQLWV0TUp0SXVBV21CT1d1SU14bW5wNUpFQl8yanhFOE0wRmYxYjRIMXhlMVFWZEtDM1NzS3RqdHJXX3dIcnJ1dndiVkJia1hJdGZ3Z29fLUJ1TQ?oc=5",
     "publisher": "네이트",
     "publishedAt": "Tue, 25 Aug 2026 12:44:00 GMT",
     "cat": "해외연예",
@@ -558,7 +716,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "거품-아니야-젠데이아-오디세이-6컷-찍고-120억-앤-해서웨이-보다-높아",
@@ -575,7 +734,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "머리-자르고-초능력-사라졌나-짧은-머리-변신-홀란-슈팅-5회-xg-0-85에도-무득점-존재감-미미",
@@ -592,7 +752,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "송강-군대서-bts-뷔와-5대-5-게임-밥은-뷔가-사더라-살롱드립",
@@ -609,7 +770,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "살롱드립-송강-bts-뷔와-군-생활-비화-공개-날짜-맞춰-외출",
@@ -626,7 +788,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-rm도-빠진-병의-화가-조르조-모란디-12년-만에-서울에서-만난다",
@@ -643,24 +806,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
-  },
-  {
-    "id": "소노인터내셔널-33호텔-바이-소노캄-bts-뉴욕-콘서트-연계-프로모션-성료",
-    "title": "소노인터내셔널 ‘33호텔 바이 소노캄’, BTS 뉴욕 콘서트 연계 프로모션 성료",
-    "titleKr": "소노인터내셔널 ‘33호텔 바이 소노캄’, BTS 뉴욕 콘서트 연계 프로모션 성료",
-    "source": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4T1Rfcldxb05TQXpSM0pVTzBXYTAzNnBWUlRzU0I5VTFVeWdsWnNsTFAxUVNXMVhZVThpVVVZbW1KN0V0ZExabXVpOU9NY21WVmVvOWRQOW5KN190emNfZERhZ0RiVzNwc0c1bGxmcEJKd9IBckFVX3lxTFB4T1Rfcldxb05TQXpSM0pVTzBXYTAzNnBWUlRzU0I5VTFVeWdsWnNsTFAxUVNXMVhZVThpVVVZbW1KN0V0ZExabXVpOU9NY21WVmVvOWRQOW5KN190emNfZERhZ0RiVzNwc0c1bGxmcEJKdw?oc=5",
-    "publisher": "잡포스트",
-    "publishedAt": "Tue, 25 Aug 2026 07:33:19 GMT",
-    "cat": "해외연예",
-    "score": 29,
-    "visualScore": 4,
-    "koreaAwareness": 5,
-    "patternCode": "RECOGNITION + CHANGE",
-    "patternConfidence": 92,
-    "visualMode": "HEADLINE-FIRST",
-    "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지민의-소아암-소녀팬-포옹-팬들의-1억원-기부-이끌었다",
@@ -677,7 +824,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지민-소아암-환아에-볼-뽀뽀-하자-성금-1억-3천만-원-모여",
@@ -694,7 +842,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "톰-크루즈는-64세에-위기에-직면했다",
@@ -711,7 +860,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "blackpink-jisoo-to-make-a-solo-comeback-on-september-4-click",
@@ -728,7 +878,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "특별출연-수준에-출연료-top-5-젠데이아-오디세이-로-69억-앤-해서웨이보다-높다",
@@ -745,7 +896,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "특별출연-수준에-출연료-top-5-젠데이아-오디세이-로-69억-앤-해서웨이보다-높다",
@@ -762,7 +914,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "잡담-토츠-메시-11카-영입했습니다",
@@ -779,24 +932,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
-  },
-  {
-    "id": "bts-지민의-따스한-입맞춤-세계도-반했다-기부금-1억-모여",
-    "title": "BTS 지민의 따스한 입맞춤, 세계도 반했다 \"기부금 1억 모여\"",
-    "titleKr": "BTS 지민의 따스한 입맞춤, 세계도 반했다 \"기부금 1억 모여\"",
-    "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4Q2FqNGxldW1mRVBqSGIxR2V1dV9pTjRnV21QWU1uY1duOGRGTi03MkNDaGJXUExJb3V0UHVPSGx1ZkQ4QXY4TE1UbS16MjFxaXNkVDZyd28tUzFJam1ob0o3RGZzaDRDdncyMg?oc=5",
-    "publisher": "네이트",
-    "publishedAt": "Tue, 25 Aug 2026 05:30:00 GMT",
-    "cat": "해외연예",
-    "score": 29,
-    "visualScore": 4,
-    "koreaAwareness": 5,
-    "patternCode": "RECOGNITION + CHANGE",
-    "patternConfidence": 92,
-    "visualMode": "HEADLINE-FIRST",
-    "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "오디세이-젠데이아-6신에-120억-16신-앤-해서웨이-100억",
@@ -813,7 +950,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "후원금-1억-모였다-bts-지민-소아암-환아에-볼-뽀뽀하자-이런뉴스",
@@ -830,7 +968,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지민-볼뽀뽀-의-기적-소아암-환아에-기부금-1억-모였다",
@@ -847,7 +986,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지민-볼뽀뽀-에-1-3억-모였다-소아암-환아-후원-행렬-머니투데이",
@@ -864,7 +1004,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "라푼젤-홀란-변신에-사라진-마법-등-유쾌한-반응-나우쇼츠",
@@ -881,7 +1022,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "라푼젤-홀란-변신에-사라진-마법-등-유쾌한-반응-나우쇼츠",
@@ -898,7 +1040,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "앤-해서웨이보다-출연료-높다-오디세이-젠데이아-단-6장면-출연-갑론을박-mhn-글로벌",
@@ -915,13 +1058,14 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "젠데이아-앤-해서웨이보다-출연료-높았다-오디세이-몸값-120억설-ce-월드뷰",
     "title": "젠데이아, 앤 해서웨이보다 출연료 높았다?…'오디세이' 몸값 120억설 [Ce:월드뷰]",
     "titleKr": "젠데이아, 앤 해서웨이보다 출연료 높았다?…'오디세이' 몸값 120억설 [Ce:월드뷰]",
-    "source": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sVmc4Yi1seE84ZzZMMG1VNktjVTAxVnc3N3VPMFNuLTFvTkNRWEsxU1pLSGI2UnJGSFRPQlgxYTgxSU9DeUFwUzVqR01NM2NSRWkw?oc=5",
+    "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53VF9nbU1iNTFjY2hxRHpFUmNoaEJ6b0xtd1RDUHZha2tCVmUzcTM3d3o5UVhFZTBfY2czYmxsay1PVGF5ZzhCTU1fakJPYTNQMjgySEhOWGNCOXVyWkc1bw?oc=5",
     "publisher": "네이트",
     "publishedAt": "Tue, 25 Aug 2026 02:59:00 GMT",
     "cat": "해외연예",
@@ -932,7 +1076,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "6개-장면인데-120억-젠데이아-앤-해서웨이-제친-몸값",
@@ -949,7 +1094,26 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "젠데이아-앤-해서웨이보다-출연료-높았다-오디세이-몸값-120억설-ce-월드뷰",
+    "title": "젠데이아, 앤 해서웨이보다 출연료 높았다?…‘오디세이’ 몸값 120억설 [Ce:월드뷰]",
+    "titleKr": "젠데이아, 앤 해서웨이보다 출연료 높았다?…‘오디세이’ 몸값 120억설 [Ce:월드뷰]",
+    "source": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tQmhpbjhGZk5XQlVQNzJJcHoyVlFRZnZjSWlwLTViRmRKNHM3SW9tMnFHVTlXNjM2MzVjNGpocnhhNVFkSlV5dFJIMDVSQzRqX1BfX3I2T1ZpVkpMNlFHWF9XZU5UNVRmTFpOYXh3?oc=5",
+    "publisher": "셀럽미디어",
+    "publishedAt": "Tue, 25 Aug 2026 02:49:31 GMT",
+    "cat": "해외연예",
+    "score": 29,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "RECOGNITION + CHANGE",
+    "patternConfidence": 92,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "REELS + CAROUSEL",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "톰-홀랜드-젠데이아-120억-몸값에-갑론을박-앤-해서웨이보다-20억-더-받아-ten할리우드",
@@ -966,41 +1130,26 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
-    "id": "bts-지민-볼뽀뽀-가-만든-기적-소아암-소녀-위해-1억3000만원-모였다",
-    "title": "BTS 지민 ‘볼뽀뽀’가 만든 기적…소아암 소녀 위해 1억3000만원 모였다",
-    "titleKr": "BTS 지민 ‘볼뽀뽀’가 만든 기적…소아암 소녀 위해 1억3000만원 모였다",
-    "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yNnhTV3lBUXdxMFF2Y1drN1RSWlVja2RvYjZYYVhZbnBsbFEzZUtnSGY3dUJMZlozaXRuQ1d3THRBV3VIWjJ4NExESEl0WV9sSllTeHFSSFh5Z0h1RGpxM18wRU1rd9IBZkFVX3lxTE1yNnhTV3lBUXdxMFF2Y1drN1RSWlVja2RvYjZYYVhZbnBsbFEzZUtnSGY3dUJMZlozaXRuQ1d3THRBV3VIWjJ4NExESEl0WV9sSllTeHFSSFh5Z0h1RGpxM18wRU1rdw?oc=5",
-    "publisher": "동아일보",
-    "publishedAt": "Tue, 25 Aug 2026 01:48:00 GMT",
-    "cat": "해외연예",
+    "id": "열차-그대로-들이받아-산산조각-났다-운전석-충격-장면",
+    "title": "열차 그대로 들이받아 산산조각 났다…운전석 충격 장면",
+    "titleKr": "열차 그대로 들이받아 산산조각 났다…운전석 충격 장면",
+    "source": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xdXdyQWNjNnprZzJndzV4MV9zdGpzR25BbDRlX1RKaWhmaU02SW5RaWVDOXZCNzFjMkU2U0VMU1JrY0F1RDlPZkJzN2kyR3NGcXc4?oc=5",
+    "publisher": "네이트",
+    "publishedAt": "Tue, 25 Aug 2026 23:12:00 GMT",
+    "cat": "해외토픽",
     "score": 29,
-    "visualScore": 4,
-    "koreaAwareness": 5,
-    "patternCode": "RECOGNITION + CHANGE",
-    "patternConfidence": 92,
-    "visualMode": "HEADLINE-FIRST",
-    "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
-  },
-  {
-    "id": "리더십-경영-89-bts의-월드투어가-증명한-공명의-힘-한국-철도가-나아갈-창조적-진화",
-    "title": "[리더십 경영] (89) BTS의 월드투어가 증명한 공명의 힘, 한국 철도가 나아갈 창조적 진화",
-    "titleKr": "[리더십 경영] (89) BTS의 월드투어가 증명한 공명의 힘, 한국 철도가 나아갈 창조적 진화",
-    "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pNzRKTWVLSzZqMGxSdVVqMUtOdmNTNDA2b1JmNjVxWHNZN053RFVaTnpRZVlIdnhUOHpfQkNIRFN2dWNXYXhtb01MV0RTNl9PUnFmZXJGWXhxNUNIR0UtVkxIX21rd1lUc0Z3?oc=5",
-    "publisher": "철도경제신문",
-    "publishedAt": "Tue, 25 Aug 2026 01:17:25 GMT",
-    "cat": "해외연예",
-    "score": 29,
-    "visualScore": 4,
-    "koreaAwareness": 5,
-    "patternCode": "RECOGNITION + CHANGE",
-    "patternConfidence": 92,
-    "visualMode": "HEADLINE-FIRST",
-    "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "visualScore": 5,
+    "koreaAwareness": 4,
+    "patternCode": "RESULT FIRST",
+    "patternConfidence": 82,
+    "visualMode": "VISUAL-FIRST",
+    "formatRecommendation": "REELS 우선",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "케냐-코끼리-떼죽음-미스터리-토마토-살충제가-원인",
@@ -1017,24 +1166,44 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
-    "id": "송강-bts-뷔와-서-찐친-됐다-밥은-걔가-사더라-sd톡톡",
-    "title": "송강, BTS 뷔와 軍서 ‘찐친’ 됐다…“밥은 걔가 사더라” [SD톡톡]",
-    "titleKr": "송강, BTS 뷔와 軍서 ‘찐친’ 됐다…“밥은 걔가 사더라” [SD톡톡]",
-    "source": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvbW44azNDRmxGZnA4Y3pXMkxidEJrTlBrQ19UU2oyVV9SWGQ0QjdYdDVud3dSQ1RLVm9MbEg3X3dLZHZRZktkUG53VGFWR1lzVG5LWEhWSWtNZklqQXFxMkU1TFRfQVA2elRIaVpR?oc=5",
-    "publisher": "스포츠동아",
-    "publishedAt": "Tue, 25 Aug 2026 13:48:02 GMT",
+    "id": "bts-지민-볼뽀뽀-가-만든-기적-소아암-소녀-위해-1억3000만원-모였다",
+    "title": "BTS 지민 ‘볼뽀뽀’가 만든 기적…소아암 소녀 위해 1억3000만원 모였다",
+    "titleKr": "BTS 지민 ‘볼뽀뽀’가 만든 기적…소아암 소녀 위해 1억3000만원 모였다",
+    "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yNnhTV3lBUXdxMFF2Y1drN1RSWlVja2RvYjZYYVhZbnBsbFEzZUtnSGY3dUJMZlozaXRuQ1d3THRBV3VIWjJ4NExESEl0WV9sSllTeHFSSFh5Z0h1RGpxM18wRU1rd9IBZkFVX3lxTE1yNnhTV3lBUXdxMFF2Y1drN1RSWlVja2RvYjZYYVhZbnBsbFEzZUtnSGY3dUJMZlozaXRuQ1d3THRBV3VIWjJ4NExESEl0WV9sSllTeHFSSFh5Z0h1RGpxM18wRU1rdw?oc=5",
+    "publisher": "동아일보",
+    "publishedAt": "Tue, 25 Aug 2026 01:48:00 GMT",
     "cat": "해외연예",
     "score": 28,
     "visualScore": 4,
     "koreaAwareness": 5,
-    "patternCode": "COMPLETE FACT",
-    "patternConfidence": 82,
+    "patternCode": "RECOGNITION + CHANGE",
+    "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
-    "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "formatRecommendation": "REELS + CAROUSEL",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "리더십-경영-89-bts의-월드투어가-증명한-공명의-힘-한국-철도가-나아갈-창조적-진화",
+    "title": "[리더십 경영] (89) BTS의 월드투어가 증명한 공명의 힘, 한국 철도가 나아갈 창조적 진화",
+    "titleKr": "[리더십 경영] (89) BTS의 월드투어가 증명한 공명의 힘, 한국 철도가 나아갈 창조적 진화",
+    "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pNzRKTWVLSzZqMGxSdVVqMUtOdmNTNDA2b1JmNjVxWHNZN053RFVaTnpRZVlIdnhUOHpfQkNIRFN2dWNXYXhtb01MV0RTNl9PUnFmZXJGWXhxNUNIR0UtVkxIX21rd1lUc0Z3?oc=5",
+    "publisher": "철도경제신문",
+    "publishedAt": "Tue, 25 Aug 2026 01:17:25 GMT",
+    "cat": "해외연예",
+    "score": 28,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "RECOGNITION + CHANGE",
+    "patternConfidence": 92,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "REELS + CAROUSEL",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "6장면-나오고-앤-해서웨이-제쳤다-입-떡-벌어지는-오디세이-속-젠데이아-출연료",
@@ -1051,7 +1220,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "오디세이-젠데이아-출연료-논란-6장면에-120억-앤-해서웨이보다-많이-받아",
@@ -1068,7 +1238,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지민-볼뽀뽀-가-가져온-기적-소아암-환자-후원금-1억원-모였다-월드픽",
@@ -1085,7 +1256,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지민-볼뽀뽀-에-1억3천만원-몰렸다-소아암-환아에게-번진-기적",
@@ -1102,7 +1274,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "신혼부부-몸값이-미쳤다-연기력-논란-젠데이아-6장면-120억-홀랜드는-230배-폭등",
@@ -1119,7 +1292,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "캣츠아이-katseye-세-번째-ep-wild-와일드-빌보드-200-1위",
@@ -1136,7 +1310,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-그래미상-보이콧-파장-시리즈-3-피해자들-c-영국의-침공-i-비틀즈-롤링-스톤즈-더-후-레드-제플린-퀸",
@@ -1153,7 +1328,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "오디세이-젠데이아-출연료-단-6장면에-120억-앤-해서웨이는-100억",
@@ -1170,7 +1346,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "오디세이-젠데이아-출연료-단-6장면에-120억-앤-해서웨이는-100억",
@@ -1187,7 +1364,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-지민-볼뽀뽀-기적-소아암-환아-1억-후원으로-번졌다",
@@ -1204,7 +1382,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "젠데이아-로버트-패틴슨이-만났다-영화-더-드라마-기대-포인트-4",
@@ -1221,7 +1400,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "테일러-스위프트-새신랑-훈련장에서-끌려나왔다-36살-nfl-대표-타이트엔드-얼마나-지독하길래-쉬게-하려면-힘으로-끌어내야-감",
@@ -1238,7 +1418,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "33세인데-무려-3년-재계약-추진-바이에른-케인에게만-파격-예외-레반도프스키-2-0-호날두와-같은-프로",
@@ -1255,7 +1436,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "스타-리오넬-메시-평생-조력자-아버지-떠나보낸-메시-그라운드-복귀-뒤-mls-징계까지",
@@ -1272,7 +1454,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "스타-리오넬-메시-평생-조력자-아버지-떠나보낸-메시-그라운드-복귀-뒤-mls-징계까지",
@@ -1289,7 +1472,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "손흥민-mls-메시와의-대결에서-리그-1호-어시스트-la-fc-vs-인터-마이애미-손흥민-개막전-첫-승-2026-02-22-s",
@@ -1306,7 +1490,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "손흥민의-lafc보다-심각하다-메시-득점해도-못-이기는-인터-마이애미-최근-5경기-4패-디펜딩-챔피언의-추락",
@@ -1323,7 +1508,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "epl-삼손처럼-힘-잃었나-삭발-홀란의-골침묵에-맨시티팬-원성",
@@ -1340,7 +1526,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "라푼젤처럼-힘-잃었나-홀란-파격-헤어스타일-변화에-팬들-반응-시끌",
@@ -1357,7 +1544,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "epl-삼손처럼-힘-잃었나-삭발-홀란의-골침묵에-맨시티-원성",
@@ -1374,7 +1562,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "방탄소년단-일리노이주도-공개-환영-공연일-bts-day-지정-머니투데이",
@@ -1391,7 +1580,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "골-넣고-한없이-오열했던-인간-메시-새-역사-썼다-지금이뉴스-ytn-boston-fleet-moo7w15syx",
@@ -1408,7 +1598,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "katseye-wild-로-빌보드-200-첫-1위-앨범-달성",
@@ -1425,7 +1616,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "영상-치렁치렁-금발-싹둑-축구스타-홀란의-대변신",
@@ -1442,7 +1634,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "bts-토론토-주말-공연에-10만-팬-열광",
@@ -1459,7 +1652,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "오피셜-끝내-호날두-1000골까지-추격-메시-벌써-커리어-923골-묵묵히-득점하며-1000골까지-77골-남아",
@@ -1476,7 +1670,8 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "머리카락과-함께-축구력도-싹둑-제발-다시-길러-팬들까지-염원-괜히-삭발한-홀란-부진한-경기력에-머리-스타일-화제",
@@ -1493,24 +1688,26 @@
     "patternConfidence": 92,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
-    "id": "소노인터내셔널-33호텔-바이-소노캄-bts-뉴욕-콘서트-연계-프로젝트-성료",
-    "title": "소노인터내셔널 ‘33호텔 바이 소노캄’, BTS 뉴욕 콘서트 연계 프로젝트 성료",
-    "titleKr": "소노인터내셔널 ‘33호텔 바이 소노캄’, BTS 뉴욕 콘서트 연계 프로젝트 성료",
-    "source": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wTUFGSFhybGNPR3VETENnVDd4T3QxQmt5UWVlX19Pb1dNNXNmd2JFMnB6SGFUdnV4Mm9ESUlBUFRzSGNYR21uSXQxOWcwMEhXOERkbzNXaWg4SzlLRjR5bTY4Zk14b3lPNkVNMGctMUpoZw?oc=5",
-    "publisher": "인더스트리뉴스",
-    "publishedAt": "Mon, 24 Aug 2026 01:45:49 GMT",
-    "cat": "해외연예",
+    "id": "곰-습격-골머리-포획-감시에-2천300억원-투입",
+    "title": "곰 습격 골머리 日, 포획·감시에 2천300억원 투입",
+    "titleKr": "곰 습격 골머리 日, 포획·감시에 2천300억원 투입",
+    "source": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Rd1QyQ1ZuaW1EcUk3VE5jM2I2ZWNxcHNtMG4zbjFsNURrR2NhNUFJSEhXTF9IME9XelJDMndJM0VUX29BN0lWNjZxWnBjdnpuQ3Bn?oc=5",
+    "publisher": "네이트",
+    "publishedAt": "Wed, 26 Aug 2026 01:25:00 GMT",
+    "cat": "동물",
     "score": 28,
-    "visualScore": 4,
-    "koreaAwareness": 5,
-    "patternCode": "RECOGNITION + CHANGE",
-    "patternConfidence": 92,
-    "visualMode": "HEADLINE-FIRST",
-    "formatRecommendation": "REELS + CAROUSEL",
-    "benchmarkVersion": "500ch-v3"
+    "visualScore": 5,
+    "koreaAwareness": 4,
+    "patternCode": "VISUAL FIRST",
+    "patternConfidence": 82,
+    "visualMode": "VISUAL-FIRST",
+    "formatRecommendation": "REELS 우선",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "개그맨-이상준-스튜디오더블-이상준의-머나먼-맛집-런칭-비행기-타고-밥만-먹고-돌아온다-24시간-해외-맛집-생존기",
@@ -1527,7 +1724,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "홋카이도서-23세-운전자-곰과-충돌-후-차량-전복으로-사망-kdf-world",
@@ -1544,13 +1742,14 @@
     "patternConfidence": 82,
     "visualMode": "VISUAL-FIRST",
     "formatRecommendation": "REELS 우선",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "이달-들어-네-번째-곰-습격-노스밴쿠버서-남성-부상",
     "title": "이달 들어 네 번째 곰 습격··· 노스밴쿠버서 남성 부상",
     "titleKr": "이달 들어 네 번째 곰 습격··· 노스밴쿠버서 남성 부상",
-    "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMXAtZGhBNE1uUFBmMDVEMmoxM1pzSUpqWnQ5WDVOOVNacVNvQi04cnd0V0tHNnhnMmFoWVlNR3lsQXFoN1VKTHc1NXdRZThJSExoN2xyNGtvYVhOanBUSGZpZUFXNzQyS3dDVV9vOFowTzNZRHhMRHdwc1l4Y2puM0dydnRUUUxkZjVOS2dkZzNYZE0xUkNr?oc=5",
+    "source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTHZ3UlRDd2tSNGZQRmtyckhLTDJ4UEU0S0k3NkMzRnVpSFpCMFc4bDBCWDdSNnp2ZzlvbkhIZUw3UFM3MHo2UFlrS2ZUNkgwWUViOXJoOFdFWktGUmFLSGZLa2VJVmNGVGJRN1B6U3hTdFd4S3ZfN2trTE5qUThwaHBVNjlLUTA5cFE?oc=5",
     "publisher": "밴쿠버 조선일보",
     "publishedAt": "Tue, 25 Aug 2026 20:49:00 GMT",
     "cat": "동물",
@@ -1561,24 +1760,8 @@
     "patternConfidence": 82,
     "visualMode": "VISUAL-FIRST",
     "formatRecommendation": "REELS 우선",
-    "benchmarkVersion": "500ch-v3"
-  },
-  {
-    "id": "케어사이드-세계-유기동물의-날-맞아-사료-기부-캠페인-전개",
-    "title": "케어사이드, 세계 유기동물의 날 맞아 사료 기부 캠페인 전개",
-    "titleKr": "케어사이드, 세계 유기동물의 날 맞아 사료 기부 캠페인 전개",
-    "source": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxUWF0OTd3TGRSM2RnVHY3MktwZnZPM1FqRzZ4TG9JX0hIT0VmblRwdmNLVEtVTWNjTFB3QnM4aHRHV1pxcXExNm1fN0pZYzd0andNWndSdkdCUEEwQ1RLblhxSkF1Qzlx0gFsQVVfeXFMTm44MGctZGFTQUxRV3NEZXJEQVVsOHpaTGpBbFgyYk14cnZOdDhhZVJpSHZlNWM0RG5IVjF6ZHFiOFluLUVybjlVT0FEaWJ4dmZERFRmQTZ5TjJjdU5QNW1rMDRxRU8yeUFiZ0lx?oc=5",
-    "publisher": "한돈뉴스",
-    "publishedAt": "Tue, 25 Aug 2026 19:28:00 GMT",
-    "cat": "동물",
-    "score": 28,
-    "visualScore": 5,
-    "koreaAwareness": 4,
-    "patternCode": "VISUAL FIRST",
-    "patternConfidence": 82,
-    "visualMode": "VISUAL-FIRST",
-    "formatRecommendation": "REELS 우선",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "밀착카메라-jtbc-후속취재-부탁해-하남-재개발-현장-고양이-구조-작전",
@@ -1595,7 +1778,8 @@
     "patternConfidence": 92,
     "visualMode": "VISUAL-FIRST",
     "formatRecommendation": "REELS 우선",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "광주-야생동물-구조-7년-기록-첫-사진집으로-나왔다",
@@ -1612,7 +1796,8 @@
     "patternConfidence": 92,
     "visualMode": "VISUAL-FIRST",
     "formatRecommendation": "REELS 우선",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "광주보건환경연구원-야생동물-구조-현장-사진집-선보여",
@@ -1629,7 +1814,8 @@
     "patternConfidence": 92,
     "visualMode": "VISUAL-FIRST",
     "formatRecommendation": "REELS 우선",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "구조-유기동물-5만마리-중-39마리만-입양-사회적-관심-필요",
@@ -1646,7 +1832,8 @@
     "patternConfidence": 92,
     "visualMode": "VISUAL-FIRST",
     "formatRecommendation": "REELS 우선",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "광주보건환경연구원-동물구조활동-첫-사진집-발간",
@@ -1663,7 +1850,26 @@
     "patternConfidence": 92,
     "visualMode": "VISUAL-FIRST",
     "formatRecommendation": "REELS 우선",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "한화운용-plus-글로벌hbm반도체-해외주식형-중-수익률-1위-기록",
+    "title": "한화운용 'PLUS 글로벌HBM반도체' 해외주식형 중 수익률 1위 기록",
+    "titleKr": "한화운용 'PLUS 글로벌HBM반도체' 해외주식형 중 수익률 1위 기록",
+    "source": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GRmN2LUxDVjNGNXkyNHZ0RzlqMERTYzJYcTdfci1Vcm9pUnFDWDhkS3FPeE1rWjdDczZfV0J5V0JjU1VLNVpRcDN0SXdDbHB5aHNv?oc=5",
+    "publisher": "네이트",
+    "publishedAt": "Wed, 26 Aug 2026 01:25:00 GMT",
+    "cat": "해외토픽",
+    "score": 28,
+    "visualScore": 4,
+    "koreaAwareness": 3,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "세계서-가장-미친-주식시장-공포의-놀이기구-됐다-3배-뛰고-40-급락-코스피에-충격",
@@ -1680,7 +1886,8 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   },
   {
     "id": "기록-1줄에서-시작해-사진-1장을-들고서-해외-독립지사의-유해-봉환-14년의-기록",
@@ -1697,6 +1904,259 @@
     "patternConfidence": 82,
     "visualMode": "HEADLINE-FIRST",
     "formatRecommendation": "CAROUSEL 강함",
-    "benchmarkVersion": "500ch-v3"
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "결국은-bts-잃은-그래미-누가-더-손해일까-ize-진단-머니투데이",
+    "title": "결국은 BTS 잃은 그래미, 누가 더 손해일까? [IZE 진단] - 머니투데이",
+    "titleKr": "결국은 BTS 잃은 그래미, 누가 더 손해일까? [IZE 진단] - 머니투데이",
+    "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BektsOGRjUXpiR0V1UFdONXRzSURuNzZEMlZlRGtfOVFUTk1JTmVEdDhFbTRmZmFySnI5T29rb2pOSXV6Vm0xaVE3OTZndlc1V3g3elVXVVJGa2w2REg2cXotdTJYb08tTzdTTlkyUGhRVXhaMnJSQdIBeEFVX3lxTE5BektsOGRjUXpiR0V1UFdONXRzSURuNzZEMlZlRGtfOVFUTk1JTmVEdDhFbTRmZmFySnI5T29rb2pOSXV6Vm0xaVE3OTZndlc1V3g3elVXVVJGa2w2REg2cXotdTJYb08tTzdTTlkyUGhRVXhaMnJSQQ?oc=5",
+    "publisher": "머니투데이",
+    "publishedAt": "Tue, 25 Aug 2026 00:27:19 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 5,
+    "koreaAwareness": 5,
+    "patternCode": "RESULT FIRST",
+    "patternConfidence": 82,
+    "visualMode": "VISUAL-FIRST",
+    "formatRecommendation": "REELS 우선",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "송강-bts-뷔와-서-찐친-됐다-밥은-걔가-사더라-sd톡톡",
+    "title": "송강, BTS 뷔와 軍서 ‘찐친’ 됐다…“밥은 걔가 사더라” [SD톡톡]",
+    "titleKr": "송강, BTS 뷔와 軍서 ‘찐친’ 됐다…“밥은 걔가 사더라” [SD톡톡]",
+    "source": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvbW44azNDRmxGZnA4Y3pXMkxidEJrTlBrQ19UU2oyVV9SWGQ0QjdYdDVud3dSQ1RLVm9MbEg3X3dLZHZRZktkUG53VGFWR1lzVG5LWEhWSWtNZklqQXFxMkU1TFRfQVA2elRIaVpR?oc=5",
+    "publisher": "스포츠동아",
+    "publishedAt": "Tue, 25 Aug 2026 13:48:02 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "빡빡머리-홀란-축구팬은-혼란-개막전-침묵에-다시-길러",
+    "title": "빡빡머리 홀란, 축구팬은 ‘혼란’…개막전 침묵에 “다시 길러!”",
+    "titleKr": "빡빡머리 홀란, 축구팬은 ‘혼란’…개막전 침묵에 “다시 길러!”",
+    "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ScG5FdW5CVDZscV9ZUFgtdGt1Vk1Xc3djNGU0V2JqbmRpTXpMTEk3Wll6RWQ2OUp2TVJWWHZlUm51bWRHTWRZV2JUVzhCa3Bud3c0UA?oc=5",
+    "publisher": "v.daum.net",
+    "publishedAt": "Tue, 25 Aug 2026 13:01:07 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "송강-bts-뷔와-뜻밖의-군대-인연-밥은-걔가-사더라-살롱드립",
+    "title": "송강, BTS 뷔와 뜻밖의 군대 인연…\"밥은 걔가 사더라\" ('살롱드립')",
+    "titleKr": "송강, BTS 뷔와 뜻밖의 군대 인연…\"밥은 걔가 사더라\" ('살롱드립')",
+    "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5vSkw4d1UxaGQ4M3JNZDA5MlNvT0ZyWjdqcG1ZN2EtNS1PcEJBUkIyb0RyNlJvM3lIQ1FaeUlHdloyd3dpMUFvTlN1R1BGOUVxd3JTXw?oc=5",
+    "publisher": "v.daum.net",
+    "publishedAt": "Tue, 25 Aug 2026 12:44:37 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "thanks-to-han-kang-and-bts-pansori-is-also-in-the-spotlight-i-was-nic",
+    "title": "“Thanks to Han Kang and BTS, pansori is also in the spotlight… I was nicknamed a ‘rock star’ in Avignon”",
+    "titleKr": "“Thanks to Han Kang and BTS, pansori is also in the spotlight… I was nicknamed a ‘rock star’ in Avignon”",
+    "source": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jSlZRb3lKTV8yMDJjY2VzTmxQbzFJdUZsY1dGTy1xUTR0WS1BRUtJSWpKRUpGMU1SXzc0b2FfQlJkcFNRRE9ZTkkzX0dkVVJOdXpxMWUtSk9HeGF1M3c?oc=5",
+    "publisher": "경향신문",
+    "publishedAt": "Tue, 25 Aug 2026 12:42:00 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "송강-날짜-맞춰-외출-밥은-bts-뷔가-사-군대서-찐친된-사연-살롱드립",
+    "title": "송강 \"날짜 맞춰 외출, 밥은 BTS 뷔가 사\"…군대서 찐친된 사연 ('살롱드립')",
+    "titleKr": "송강 \"날짜 맞춰 외출, 밥은 BTS 뷔가 사\"…군대서 찐친된 사연 ('살롱드립')",
+    "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtSW9JX0pzWl9BX0h2aGFmd0VTbU1CTHNYZFpkVUVkb1g1TjlmOWItLVV3d2NoVkN4ejhIaTNsWDhTaEFoejM0TWIwVXBaejZ3RE40WTNfTGRmY2RlT0dXQ0puRHpMdmYtVFZJbXhib2ZJLWQ5bEN1Tw?oc=5",
+    "publisher": "네이트",
+    "publishedAt": "Tue, 25 Aug 2026 12:04:00 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "송강-날짜-맞춰-외출-밥은-bts-뷔가-사-군대서-찐친된-사연-살롱드립",
+    "title": "송강 “날짜 맞춰 외출, 밥은 BTS 뷔가 사”…군대서 찐친된 사연 (‘살롱드립’)",
+    "titleKr": "송강 “날짜 맞춰 외출, 밥은 BTS 뷔가 사”…군대서 찐친된 사연 (‘살롱드립’)",
+    "source": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vRUJIdVhoa0NnWlptQjEtTVZWTzhOSmJNQjRzcldoWkU3MDl1cmQ2VHJNc1RBWXF3ZjEzUzhjOW9QeXBwRkhrdGdfNXdkMVR4VlhXQWNsUVpxcnZJNXJlRVJn?oc=5",
+    "publisher": "일간스포츠",
+    "publishedAt": "Tue, 25 Aug 2026 12:03:00 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "송강-bts-뷔와-휴가-날짜-맞춰-외출-pc방-자주-가",
+    "title": "송강 \"BTS 뷔와 휴가 날짜 맞춰 외출…PC방 자주 가\"",
+    "titleKr": "송강 \"BTS 뷔와 휴가 날짜 맞춰 외출…PC방 자주 가\"",
+    "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ISklPZlpCVWhwblZKSjY5Wk56MW4yaGdMZ1RmQXJyVlFZU0QxbVVfbDNmcUpDSDNNN3JtOVJBS0YyMHV0WG8yS1RCdHBpUlQ4VEdTT0ZwMXNvZFE1azEzMw?oc=5",
+    "publisher": "iMBC 연예",
+    "publishedAt": "Tue, 25 Aug 2026 11:25:00 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "한강-bts-덕분에-판소리도-주목-아비뇽에서-록스타-별명-얻었죠",
+    "title": "“한강·BTS 덕분에 판소리도 주목…아비뇽에서 ‘록스타’ 별명 얻었죠”",
+    "titleKr": "“한강·BTS 덕분에 판소리도 주목…아비뇽에서 ‘록스타’ 별명 얻었죠”",
+    "source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ROFQ3VGFoMXdQbE1Cc2ljNFdoT2pJQVVDYmZaOHYxMk1waG1Rd2YyYzRMbGd4dGZYZDNPRUl3NGVTYUhVNFo3XzRZdTFTYnVSVDVDV0tJRDc5Z9IBX0FVX3lxTE9ZcjQ1QkQ4SjF2QW9jdm41cGptZ0syRDF4REpzai1YMWZhZ29Ed1RrOGEtdjhrZXZkMTE1ZlZPSkxOb1hNQkt0d1M0SDlXUDhCN21sNEVZUm5KcERFY1lR?oc=5",
+    "publisher": "경향신문",
+    "publishedAt": "Tue, 25 Aug 2026 11:12:00 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "김진의-철학산책-bts-노래-속-철학을-읽다",
+    "title": "[김진의 철학산책]BTS, 노래 속 철학을 읽다",
+    "titleKr": "[김진의 철학산책]BTS, 노래 속 철학을 읽다",
+    "source": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5DV1NaVEJrQTVqMmM5cUJaOWlmNlN2aFlGQzNjOUVtaWN5ZkhuUU9xQ2ZlNjM2WUFlNXFRbUNWRmgyY0tGVEc1REpVVkUwVzRZXzdZYXRocTRINGFWN1ZuTV8xQWxiUQ?oc=5",
+    "publisher": "울산제일일보",
+    "publishedAt": "Tue, 25 Aug 2026 11:12:00 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "송강-군-시절-bts-뷔-외출-맞춰-pc방-밥-뷔가-사더라-살롱드립",
+    "title": "송강 \"군 시절 BTS 뷔 외출 맞춰 PC방, 밥? 뷔가 사더라\"(살롱드립)",
+    "titleKr": "송강 \"군 시절 BTS 뷔 외출 맞춰 PC방, 밥? 뷔가 사더라\"(살롱드립)",
+    "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uUGkzMl90UkU0TGhhNk5KY3Vublc5NzJZSE1xa2E5MV9UbFA3WGRPSnJtUDBsbFhubkExQmJ0NUU3c0lfTlJDMW0zVHM0U3FoM0RsMjAwT1o1bXlGMlVvQQ?oc=5",
+    "publisher": "네이트",
+    "publishedAt": "Tue, 25 Aug 2026 10:54:00 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "송강-bts-뷔와-군대서-찐친-됐다-외출까지-맞춰-pc방-데이트-밥값은-주로-뷔가",
+    "title": "송강, BTS 뷔와 군대서 '찐친' 됐다…\"외출까지 맞춰 PC방 데이트, 밥값은 주로 뷔가\"",
+    "titleKr": "송강, BTS 뷔와 군대서 '찐친' 됐다…\"외출까지 맞춰 PC방 데이트, 밥값은 주로 뷔가\"",
+    "source": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5QaFdZYnBqS1FxQ1c2WmE4bFBhclRaMkp3bGxVN1p5Z2dOZmZLQnljOVBtX1FpR19HYUxDM290NHhiNThLRHNTdHBaUQ?oc=5",
+    "publisher": "v.daum.net",
+    "publishedAt": "Tue, 25 Aug 2026 10:26:42 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "송강-bts-뷔와-군대서-찐친-됐다-외출까지-맞춰-pc방-데이트-밥값은-주로-뷔가",
+    "title": "송강, BTS 뷔와 군대서 `찐친` 됐다…\"외출까지 맞춰 PC방 데이트, 밥값은 주로 뷔가\"",
+    "titleKr": "송강, BTS 뷔와 군대서 `찐친` 됐다…\"외출까지 맞춰 PC방 데이트, 밥값은 주로 뷔가\"",
+    "source": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CTlViejZkaWM2SkdvR2hCODNSR3UxUUlaVmx4OVZpYmcxYTF1R2FxTlJxRjRHU1BQVHlXc3ZjR3VPUEI2ZWpCZjNKV0kwdGk1Y29lZE1IekxwVnB6N2hjSw?oc=5",
+    "publisher": "마이데일리",
+    "publishedAt": "Tue, 25 Aug 2026 10:24:46 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
+  },
+  {
+    "id": "송강-bts-뷔와-군-복무-중-pc방-자주-갔다-외출-날짜-맞춰서-만나-re-뷰",
+    "title": "송강, BTS 뷔와 군 복무 중 PC방 자주 갔다…\"외출 날짜 맞춰서 만나\" [RE:뷰]",
+    "titleKr": "송강, BTS 뷔와 군 복무 중 PC방 자주 갔다…\"외출 날짜 맞춰서 만나\" [RE:뷰]",
+    "source": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE15N1dlSExSNldSQm8xNS1faHNuMGRXSDc0ZHZidHdzSHVXNWoyQ1pyQ1I3cFdBTlNKVTdIaVBqNkdJenJGbEE?oc=5",
+    "publisher": "v.daum.net",
+    "publishedAt": "Tue, 25 Aug 2026 10:05:08 GMT",
+    "cat": "해외연예",
+    "score": 27,
+    "visualScore": 4,
+    "koreaAwareness": 5,
+    "patternCode": "COMPLETE FACT",
+    "patternConfidence": 82,
+    "visualMode": "HEADLINE-FIRST",
+    "formatRecommendation": "CAROUSEL 강함",
+    "archiveContext": false,
+    "benchmarkVersion": "500ch-v4"
   }
 ]
